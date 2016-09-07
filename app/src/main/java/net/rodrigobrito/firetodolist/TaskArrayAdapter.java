@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.CheckBox;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -32,12 +33,14 @@ public class TaskArrayAdapter extends ArrayAdapter<Task> {
             convertView = LayoutInflater.from(getContext()).inflate(R.layout.task_row_item, parent, false);
         }
 
-        ImageView imageView = (ImageView) convertView.findViewById(R.id.icon_status_item);
+        CheckBox checkBox = (CheckBox) convertView.findViewById(R.id.done_item);
         TextView title = (TextView) convertView.findViewById(R.id.title_item);
         TextView data = (TextView) convertView.findViewById(R.id.date_item);
 
         title.setText(task.getTitle());
-        data.setText(task.getDate().toString());
+        if( task.getDate() != null){
+            data.setText(task.getDate().toString());
+        }
         return convertView;
     }
 }

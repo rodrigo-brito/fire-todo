@@ -9,4 +9,8 @@
     <string name="action_calendar">Date</string>
     <string name="action_time">Time</string>
     <string name="select_time">Select the Date / Time</string>
+    <string name="title_activity_view_task">ViewTaskActivity</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_show">Show details</string>
 </resources>

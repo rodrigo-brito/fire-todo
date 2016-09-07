@@ -15,9 +15,14 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.AttributeSet;
 import android.util.Log;
+import android.view.ContextMenu;
+import android.view.ContextMenu.*;
 import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.AdapterView;
+import android.widget.AdapterView.AdapterContextMenuInfo;
 import android.widget.DatePicker;
 import android.widget.TextView;
 import android.widget.TimePicker;
@@ -123,7 +128,7 @@ public class NewTaskActivity extends AppCompatActivity {
                 ContentValues values = new ContentValues();
                 values.put(TaskEntry.COLUMN_NAME_TITLE, task.getTitle());
                 values.put(TaskEntry.COLUMN_NAME_DECRTIPTION, task.getDescription());
-                values.put(TaskEntry.COLUMN_NAME_DATE, task.getDate().toString());
+                values.put(TaskEntry.COLUMN_NAME_DATE, task.getDate().getTime());
                 values.put(TaskEntry.COLUMN_NAME_DONE, task.isDone());
 
                 // Insert the new row, returning the primary key value of the new row

@@ -27,6 +27,15 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="net.rodrigobrito.firetodolist.MainActivity" />
         </activity>
+        <activity
+            android:name=".ViewTaskActivity"
+            android:label="@string/title_activity_view_task"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="net.rodrigobrito.firetodolist.MainActivity" />
+        </activity>
     </application>
 
 </manifest>

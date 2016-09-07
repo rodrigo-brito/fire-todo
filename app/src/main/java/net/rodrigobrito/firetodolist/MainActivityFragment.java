@@ -1,10 +1,12 @@
 package net.rodrigobrito.firetodolist;
 
+import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.AsyncTask;
 import android.support.v4.app.Fragment;
 import android.os.Bundle;
+import android.view.ContextMenu;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -38,7 +40,7 @@ public class MainActivityFragment extends Fragment {
                              Bundle savedInstanceState) {
         View rootView =  inflater.inflate(R.layout.fragment_main, container, false);
         taskDBHelper = new TaskDBHelper(getContext());
-        ArrayList<Task> tasks = new ArrayList<Task>();
+        final ArrayList<Task> tasks = new ArrayList<Task>();
         taskArrayAdapter = new TaskArrayAdapter(getActivity(), tasks);
         GetTasks getTasks = new GetTasks(taskArrayAdapter);
         getTasks.execute();
@@ -46,10 +48,25 @@ public class MainActivityFragment extends Fragment {
         listView.setAdapter(taskArrayAdapter);
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
-            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                Toast.makeText(getContext(), "CLICOU", Toast.LENGTH_SHORT).show();
+            public void onItemClick(AdapterView<?> adapterView, View view, int position, long id) {
+                Task task = taskArrayAdapter.getItem(position);
+                Intent intent = new Intent(getActivity(), ViewTaskActivity.class);
+                intent.putExtra("title", task.getTitle());
+                intent.putExtra("date", task.getDate().toString());
+                intent.putExtra("description", task.getDescription());
+                intent.putExtra("done", task.isDone());
+                startActivity(intent);
             }
         });
+        listView.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
+
+            @Override
+            public boolean onItemLongClick(AdapterView<?> adapterView, View view, int i, long l) {
+                Toast.makeText(getContext(), "LONGPRESS", Toast.LENGTH_SHORT).show();
+                return true;
+            }
+        });
+        registerForContextMenu(listView);
         return rootView;
     }
 
@@ -59,6 +76,8 @@ public class MainActivityFragment extends Fragment {
         GetTasks getTasks = new GetTasks(taskArrayAdapter);
         getTasks.execute();
     }
+
+
 
     private class GetTasks extends AsyncTask<Void, Void, Cursor>{
 
@@ -87,7 +106,7 @@ public class MainActivityFragment extends Fragment {
                     null,                                       // The values for the WHERE clause
                     null,                                       // don't group the rows
                     null,                                       // don't filter by row groups
-                    null                                        // The sort order
+                    TaskEntry.COLUMN_NAME_DATE+" ASC"           // The sort order
             );
             return cursor;
         }
@@ -112,7 +131,7 @@ public class MainActivityFragment extends Fragment {
                 Task task = new Task();
                 task.setTitle( cursor.getString(cursor.getColumnIndex( TaskEntry.COLUMN_NAME_TITLE )) );
                 task.setDescription( cursor.getString(cursor.getColumnIndex( TaskEntry.COLUMN_NAME_DECRTIPTION )) );
-                task.setDate( stringToDate(cursor.getString(cursor.getColumnIndex( TaskEntry.COLUMN_NAME_DATE ))));
+                task.setDate( new Date( cursor.getLong(cursor.getColumnIndex( TaskEntry.COLUMN_NAME_DATE ))));
                 task.setDone( cursor.getInt(cursor.getColumnIndex( TaskEntry.COLUMN_NAME_DONE )) == 1);
                 this.taskArrayAdapter.add(task);
                 cursor.moveToNext();
