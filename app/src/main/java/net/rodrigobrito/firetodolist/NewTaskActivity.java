@@ -40,13 +40,11 @@ import java.util.Calendar;
 public class NewTaskActivity extends AppCompatActivity {
 
     private Calendar calendar;
-    private TaskDBHelper taskDBHelper;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         calendar = Calendar.getInstance();
-        taskDBHelper = new TaskDBHelper(this);
         setContentView(R.layout.activity_new_task);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -70,7 +68,7 @@ public class NewTaskActivity extends AppCompatActivity {
             TextView title = (TextView) findViewById(R.id.title);
             TextView description = (TextView) findViewById(R.id.description);
             Task task = new Task(title.getText().toString(),description.getText().toString(),calendar.getTime(),false);
-            SaveTask saveTask = new SaveTask();
+            SaveTask saveTask = new SaveTask(this);
             saveTask.execute(task);
             Toast.makeText(this, "Taks inserted", Toast.LENGTH_SHORT);
             this.finish();
@@ -114,25 +112,19 @@ public class NewTaskActivity extends AppCompatActivity {
     }
 
     private class SaveTask extends AsyncTask<Task, Void, Boolean> {
-        SQLiteDatabase db;
 
-        public SaveTask (){
-            db = taskDBHelper.getWritableDatabase();
+        private Context context;
+
+        public SaveTask (Context context){
+            this.context = context;
         }
 
         @Override
         protected Boolean doInBackground(final Task... tasks) {
             int rowInserted = 0;
             for(Task task: tasks) {
-                // Create a new map of values, where column names are the keys
-                ContentValues values = new ContentValues();
-                values.put(TaskEntry.COLUMN_NAME_TITLE, task.getTitle());
-                values.put(TaskEntry.COLUMN_NAME_DECRTIPTION, task.getDescription());
-                values.put(TaskEntry.COLUMN_NAME_DATE, task.getDate().getTime());
-                values.put(TaskEntry.COLUMN_NAME_DONE, task.isDone());
-
-                // Insert the new row, returning the primary key value of the new row
-                long newRowId = db.insert( TaskEntry.TABLE_NAME, null, values);
+                TaskDBHelper taskDBHelper = TaskDBHelper.getInstance(this.context);
+                Long newRowId = taskDBHelper.insert(task);
                 Log.e("DB", "Row inserted = "+newRowId);
                 rowInserted += newRowId;
             }

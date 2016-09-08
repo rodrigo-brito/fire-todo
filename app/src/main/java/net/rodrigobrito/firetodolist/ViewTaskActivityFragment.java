@@ -13,6 +13,8 @@ import android.widget.TextView;
  */
 public class ViewTaskActivityFragment extends Fragment {
 
+    private int id;
+
     public ViewTaskActivityFragment() {
     }
 
@@ -28,6 +30,7 @@ public class ViewTaskActivityFragment extends Fragment {
         TextView data = (TextView) rootView.findViewById(R.id.date_view);
         TextView descricao = (TextView) rootView.findViewById(R.id.decription_view);
 
+        this.id = intent.getIntExtra("id", 0);
         titulo.setText(intent.getStringExtra("title"));
         data.setText(intent.getStringExtra("date"));
         descricao.setText(intent.getStringExtra("description"));

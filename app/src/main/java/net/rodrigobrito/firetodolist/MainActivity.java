@@ -73,8 +73,4 @@ public class MainActivity extends AppCompatActivity {
                 return super.onContextItemSelected(item);
         }
     }
-
-    public void onDoneItemClick(View v){
-        Toast.makeText(this, "CLICOU CHECK", Toast.LENGTH_SHORT).show();
-    }
 }

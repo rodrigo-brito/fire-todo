@@ -33,7 +33,7 @@
         android:layout_below="@+id/title"
         android:layout_alignRight="@+id/title"
         android:layout_alignEnd="@+id/title"
-        android:minLines="2" />
+        android:minLines="1" />
 
     <EditText
         android:layout_width="wrap_content"
