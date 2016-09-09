@@ -92,7 +92,6 @@ public class MainActivityFragment extends Fragment {
 
         @Override
         protected void onPostExecute(Cursor cursor) {
-            super.onPostExecute(cursor);
             this.taskArrayAdapter.clear();
             cursor.moveToFirst();
             while (cursor.isAfterLast() == false) {
@@ -101,7 +100,7 @@ public class MainActivityFragment extends Fragment {
                 task.setTitle( cursor.getString(cursor.getColumnIndex( TaskEntry.COLUMN_NAME_TITLE )) );
                 task.setDescription( cursor.getString(cursor.getColumnIndex( TaskEntry.COLUMN_NAME_DECRTIPTION )) );
                 task.setDate( new Date( cursor.getLong(cursor.getColumnIndex( TaskEntry.COLUMN_NAME_DATE ))));
-                task.setDone( cursor.getInt(cursor.getColumnIndex( TaskEntry.COLUMN_NAME_DONE )) == 1);
+                task.setDone( cursor.getInt(cursor.getColumnIndex( TaskEntry.COLUMN_NAME_DONE )) > 0);
                 this.taskArrayAdapter.add(task);
                 cursor.moveToNext();
             }
