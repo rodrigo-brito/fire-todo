@@ -1,9 +1,11 @@
 package net.rodrigobrito.firetodolist;
 
+import android.app.Dialog;
 import android.content.Context;
 import android.content.Intent;
 import android.database.Cursor;
 import android.os.AsyncTask;
+import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -31,6 +33,11 @@ public class MainActivityFragment extends Fragment {
     }
 
     @Override
+    public void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+    }
+
+    @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View rootView =  inflater.inflate(R.layout.fragment_main, container, false);
@@ -54,10 +61,9 @@ public class MainActivityFragment extends Fragment {
             }
         });
         listView.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
-
             @Override
             public boolean onItemLongClick(AdapterView<?> adapterView, View view, int i, long l) {
-                Toast.makeText(getContext(), "LONGPRESS", Toast.LENGTH_SHORT).show();
+                getActivity().openContextMenu(getActivity().findViewById(R.id.list_tasks));
                 return true;
             }
         });
@@ -71,8 +77,6 @@ public class MainActivityFragment extends Fragment {
         GetTasks getTasks = new GetTasks(taskArrayAdapter, getContext());
         getTasks.execute();
     }
-
-
 
     private class GetTasks extends AsyncTask<Void, Void, Cursor>{
 

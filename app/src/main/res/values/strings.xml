@@ -13,4 +13,11 @@
     <string name="action_delete">Delete</string>
     <string name="action_edit">Edit</string>
     <string name="action_show">Show details</string>
+    <string name="country_prompt">Choose a country</string>
+    <string name="select_the_list">Select the list</string>
+    <string-array name="list_type_arrays">
+        <item>Pending</item>
+        <item>Done</item>
+        <item>All</item>
+    </string-array>
 </resources>
