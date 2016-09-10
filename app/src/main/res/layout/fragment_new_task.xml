@@ -10,47 +10,67 @@
     tools:showIn="@layout/activity_new_task">
 
 
-    <EditText
-        android:layout_width="wrap_content"
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/title"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:hint="@string/placeholder_title"/>
+        android:id="@+id/title_label">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/title"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:hint="@string/placeholder_title"/>
+    </android.support.design.widget.TextInputLayout>
 
-    <EditText
-        android:layout_width="wrap_content"
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="textMultiLine"
-        android:ems="10"
-        android:id="@+id/description"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:hint="@string/placeholder_description"
-        android:layout_below="@+id/title"
-        android:layout_alignRight="@+id/title"
-        android:layout_alignEnd="@+id/title"
-        android:minLines="1" />
+        android:id="@+id/description_label"
+        android:layout_below="@+id/title_label">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:id="@+id/description"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:hint="@string/placeholder_description"
+            android:layout_alignRight="@+id/title_label"
+            android:layout_alignEnd="@+id/title_label"
+            android:minLines="1" />
+    </android.support.design.widget.TextInputLayout>
 
-    <EditText
-        android:layout_width="wrap_content"
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="date"
-        android:ems="10"
-        android:id="@+id/date"
-        android:hint="@string/select_time"
-        android:clickable="false"
-        android:cursorVisible="false"
-        android:focusable="false"
-        android:focusableInTouchMode="false"
-        android:layout_below="@+id/description"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
+        android:id="@+id/date_label"
+        android:layout_below="@+id/description_label"
         android:layout_toLeftOf="@+id/button_date"
-        android:layout_toStartOf="@+id/button_date" />
+        android:layout_toStartOf="@+id/button_date">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="date"
+            android:ems="10"
+            android:id="@+id/date"
+            android:hint="@string/select_time"
+            android:clickable="false"
+            android:cursorVisible="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:layout_below="@+id/description_label"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_toLeftOf="@+id/button_date"
+            android:layout_toStartOf="@+id/button_date" />
+    </android.support.design.widget.TextInputLayout>
 
     <ImageButton
         android:layout_width="wrap_content"
@@ -60,9 +80,10 @@
         android:text="@string/action_calendar"
         android:src="@drawable/ic_calendar"
         android:drawableLeft="@drawable/ic_calendar"
-        android:layout_alignTop="@+id/date"
+        android:layout_alignTop="@+id/date_label"
         android:layout_toLeftOf="@+id/button_time"
-        android:layout_toStartOf="@+id/button_time" />
+        android:layout_toStartOf="@+id/button_time"
+        android:layout_alignBottom="@+id/date_label" />
 
     <ImageButton
         android:layout_width="wrap_content"
@@ -73,6 +94,7 @@
         android:onClick="showTimePickerDialog"
         android:layout_alignTop="@+id/button_date"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:layout_alignBottom="@+id/button_date" />
 
 </RelativeLayout>

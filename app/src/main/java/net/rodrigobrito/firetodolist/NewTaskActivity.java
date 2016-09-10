@@ -5,6 +5,7 @@ import android.app.TimePickerDialog;
 import android.content.ContentValues;
 import android.content.Context;
 import android.content.Intent;
+import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -32,6 +33,7 @@ import net.rodrigobrito.firetodolist.data.TaskContract;
 import net.rodrigobrito.firetodolist.data.TaskDBHelper;
 import net.rodrigobrito.firetodolist.model.Task;
 import net.rodrigobrito.firetodolist.data.TaskContract.TaskEntry;
+import net.rodrigobrito.firetodolist.util.DateUtil;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
@@ -62,7 +64,8 @@ public class NewTaskActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
 
-        if (id == R.id.action_settings) {
+        if (id == R.id.action_cancel) {
+            this.finish();
             return true;
         }else if(id == R.id.action_save){
             TextView title = (TextView) findViewById(R.id.title);
@@ -70,7 +73,6 @@ public class NewTaskActivity extends AppCompatActivity {
             Task task = new Task(title.getText().toString(),description.getText().toString(),calendar.getTime(),false);
             SaveTask saveTask = new SaveTask(this);
             saveTask.execute(task);
-            Toast.makeText(this, "Taks inserted", Toast.LENGTH_SHORT);
             this.finish();
             return true;
         }
@@ -107,8 +109,7 @@ public class NewTaskActivity extends AppCompatActivity {
 
     public void updateTime(){
         TextView textView = (TextView) findViewById(R.id.date);
-        final DateFormat df = new SimpleDateFormat("dd/MM/yyyy HH:mm");
-        textView.setText(df.format(calendar.getTime()));
+        textView.setText(new DateUtil(this).parse(calendar.getTime()));
     }
 
     private class SaveTask extends AsyncTask<Task, Void, Boolean> {

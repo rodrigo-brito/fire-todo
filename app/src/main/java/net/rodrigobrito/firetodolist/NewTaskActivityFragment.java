@@ -6,6 +6,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
+import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.Toast;
 
@@ -26,5 +27,12 @@ public class NewTaskActivityFragment extends Fragment {
                              Bundle savedInstanceState) {
         return inflater.inflate(R.layout.fragment_new_task, container, false);
 
+    }
+
+    @Override
+    public void onStart() {
+        super.onStart();
+        EditText editText = (EditText) getActivity().findViewById(R.id.title);
+        editText.requestFocus();
     }
 }

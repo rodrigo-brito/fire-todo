@@ -64,7 +64,9 @@ public class TaskDBHelper extends SQLiteOpenHelper {
         values.put(TaskContract.TaskEntry.COLUMN_NAME_DONE, task.isDone());
 
         // Insert the new row, returning the primary key value of the new row
-        return db.insert( TaskContract.TaskEntry.TABLE_NAME, null, values);
+        long id = db.insert( TaskContract.TaskEntry.TABLE_NAME, null, values);
+        db.close();
+        return id;
     }
 
     public Cursor getAll(){
@@ -89,6 +91,50 @@ public class TaskDBHelper extends SQLiteOpenHelper {
         return cursor;
     }
 
+    public Cursor getDone(){
+        SQLiteDatabase db = this.getReadableDatabase();
+        String[] fields = {
+                TaskContract.TaskEntry._ID,
+                TaskContract.TaskEntry.COLUMN_NAME_TITLE,
+                TaskContract.TaskEntry.COLUMN_NAME_DECRTIPTION,
+                TaskContract.TaskEntry.COLUMN_NAME_DATE,
+                TaskContract.TaskEntry.COLUMN_NAME_DONE
+        };
+
+        Cursor cursor = db.query(
+                TaskContract.TaskEntry.TABLE_NAME,                      // The table to query
+                fields,                                                 // The columns to return
+                TaskEntry.COLUMN_NAME_DONE+" = '1'",                      // The columns for the WHERE clause
+                null,                                                   // The values for the WHERE clause
+                null,                                                   // don't group the rows
+                null,                                                   // don't filter by row groups
+                TaskContract.TaskEntry.COLUMN_NAME_DATE+" ASC"          // The sort order
+        );
+        return cursor;
+    }
+
+    public Cursor getPending(){
+        SQLiteDatabase db = this.getReadableDatabase();
+        String[] fields = {
+                TaskContract.TaskEntry._ID,
+                TaskContract.TaskEntry.COLUMN_NAME_TITLE,
+                TaskContract.TaskEntry.COLUMN_NAME_DECRTIPTION,
+                TaskContract.TaskEntry.COLUMN_NAME_DATE,
+                TaskContract.TaskEntry.COLUMN_NAME_DONE
+        };
+
+        Cursor cursor = db.query(
+                TaskContract.TaskEntry.TABLE_NAME,                      // The table to query
+                fields,                                                 // The columns to return
+                TaskEntry.COLUMN_NAME_DONE+" = '0'",                      // The columns for the WHERE clause
+                null,                                                   // The values for the WHERE clause
+                null,                                                   // don't group the rows
+                null,                                                   // don't filter by row groups
+                TaskContract.TaskEntry.COLUMN_NAME_DATE+" ASC"          // The sort order
+        );
+        return cursor;
+    }
+
     public void delete(int id){
         SQLiteDatabase db = this.getWritableDatabase();
         // Define 'where' part of query.
@@ -97,6 +143,7 @@ public class TaskDBHelper extends SQLiteOpenHelper {
         String[] selectionArgs = { String.valueOf(id) };
         // Issue SQL statement.
         db.delete(TaskContract.TaskEntry.TABLE_NAME, selection, selectionArgs);
+        db.close();
     }
 
     public void update(Task task){
@@ -118,5 +165,6 @@ public class TaskDBHelper extends SQLiteOpenHelper {
                 selection,
                 selectionArgs);
         Log.i("TAG", "Update "+task.get_id()+" Rows affected="+count);
+        db.close();
     }
 }
