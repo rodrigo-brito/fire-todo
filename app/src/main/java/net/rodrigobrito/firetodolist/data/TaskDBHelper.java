@@ -60,7 +60,9 @@ public class TaskDBHelper extends SQLiteOpenHelper {
         ContentValues values = new ContentValues();
         values.put(TaskContract.TaskEntry.COLUMN_NAME_TITLE, task.getTitle());
         values.put(TaskContract.TaskEntry.COLUMN_NAME_DECRTIPTION, task.getDescription());
-        values.put(TaskContract.TaskEntry.COLUMN_NAME_DATE, task.getDate().getTime());
+        if(task.getDate() != null){
+            values.put(TaskContract.TaskEntry.COLUMN_NAME_DATE, task.getDate().getTime());
+        }
         values.put(TaskContract.TaskEntry.COLUMN_NAME_DONE, task.isDone());
 
         // Insert the new row, returning the primary key value of the new row
@@ -152,7 +154,9 @@ public class TaskDBHelper extends SQLiteOpenHelper {
         ContentValues values = new ContentValues();
         values.put(TaskContract.TaskEntry.COLUMN_NAME_TITLE, task.getTitle());
         values.put(TaskContract.TaskEntry.COLUMN_NAME_DECRTIPTION, task.getDescription());
-        values.put(TaskContract.TaskEntry.COLUMN_NAME_DATE, task.getDate().getTime());
+        if(task.getDate() != null){
+            values.put(TaskContract.TaskEntry.COLUMN_NAME_DATE, task.getDate().getTime());
+        }
         values.put(TaskContract.TaskEntry.COLUMN_NAME_DONE, task.isDone());
 
         // Which row to update, based on the ID
@@ -164,7 +168,6 @@ public class TaskDBHelper extends SQLiteOpenHelper {
                 values,
                 selection,
                 selectionArgs);
-        Log.i("TAG", "Update "+task.get_id()+" Rows affected="+count);
         db.close();
     }
 }

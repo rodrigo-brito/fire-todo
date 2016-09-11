@@ -17,6 +17,9 @@ public class DateUtil {
     }
 
     public String parse(Date date){
+        if(date == null){
+            return "";
+        }
         return sdf.format(date);
     }
 }

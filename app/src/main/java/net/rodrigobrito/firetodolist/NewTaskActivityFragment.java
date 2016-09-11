@@ -32,7 +32,5 @@ public class NewTaskActivityFragment extends Fragment {
     @Override
     public void onStart() {
         super.onStart();
-        EditText editText = (EditText) getActivity().findViewById(R.id.title);
-        editText.requestFocus();
     }
 }

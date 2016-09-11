@@ -63,16 +63,6 @@ public class MainActivityFragment extends Fragment implements UpdateAdapter {
             }
         });
 
-        //LongPress
-        listView.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
-            @Override
-            public boolean onItemLongClick(AdapterView<?> adapterView, View view, int i, long l) {
-                Toast.makeText(getContext(), "Item "+i, Toast.LENGTH_SHORT).show();
-                getActivity().openContextMenu(getActivity().findViewById(R.id.list_tasks));
-                return true;
-            }
-        });
-
         Spinner spinner = (Spinner) rootView.findViewById(R.id.list_type);
         spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
@@ -124,7 +114,10 @@ public class MainActivityFragment extends Fragment implements UpdateAdapter {
             task.set_id( cursor.getInt( cursor.getColumnIndex( TaskEntry._ID )));
             task.setTitle( cursor.getString(cursor.getColumnIndex( TaskEntry.COLUMN_NAME_TITLE )) );
             task.setDescription( cursor.getString(cursor.getColumnIndex( TaskEntry.COLUMN_NAME_DECRTIPTION )) );
-            task.setDate( new Date( cursor.getLong(cursor.getColumnIndex( TaskEntry.COLUMN_NAME_DATE ))));
+            Long valueDate = cursor.getLong(cursor.getColumnIndex( TaskEntry.COLUMN_NAME_DATE ));
+            if(valueDate != 0){
+                task.setDate( new Date( valueDate ));
+            }
             task.setDone( cursor.getInt(cursor.getColumnIndex( TaskEntry.COLUMN_NAME_DONE )) > 0);
             this.taskArrayAdapter.add(task);
             cursor.moveToNext();

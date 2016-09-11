@@ -50,6 +50,8 @@ public class TaskArrayAdapter extends ArrayAdapter<Task>{
         if( task.getDate() != null){
             DateUtil dateUtil = new DateUtil(getContext());
             data.setText(dateUtil.parse(task.getDate()));
+        }else{
+            data.setText("");
         }
         checkBox.setOnClickListener(new View.OnClickListener() {
             @Override
