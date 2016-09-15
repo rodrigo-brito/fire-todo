@@ -21,4 +21,5 @@
         <item>Done</item>
         <item>All</item>
     </string-array>
+    <string name="title_activity_edit_task">Editar Tarefa</string>
 </resources>

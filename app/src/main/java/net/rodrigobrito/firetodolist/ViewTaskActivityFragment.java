@@ -24,16 +24,6 @@ public class ViewTaskActivityFragment extends Fragment {
 
 
         View rootView = inflater.inflate(R.layout.fragment_view_task, container, false);
-        Intent intent = getActivity().getIntent();
-
-        TextView titulo = (TextView) rootView.findViewById(R.id.title_view);
-        TextView data = (TextView) rootView.findViewById(R.id.date_view);
-        TextView descricao = (TextView) rootView.findViewById(R.id.decription_view);
-
-        this.id = intent.getIntExtra("id", 0);
-        titulo.setText(intent.getStringExtra("title"));
-        data.setText(intent.getStringExtra("date"));
-        descricao.setText(intent.getStringExtra("description"));
 
         return rootView;
     }

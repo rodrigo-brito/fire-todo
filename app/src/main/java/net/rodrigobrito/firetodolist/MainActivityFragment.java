@@ -55,10 +55,6 @@ public class MainActivityFragment extends Fragment implements UpdateAdapter {
                 Task task = taskArrayAdapter.getItem(position);
                 Intent intent = new Intent(getActivity(), ViewTaskActivity.class);
                 intent.putExtra("id", task.get_id());
-                intent.putExtra("title", task.getTitle());
-                intent.putExtra("date", new DateUtil(getActivity()).parse(task.getDate()));
-                intent.putExtra("description", task.getDescription());
-                intent.putExtra("done", task.isDone());
                 startActivity(intent);
             }
         });

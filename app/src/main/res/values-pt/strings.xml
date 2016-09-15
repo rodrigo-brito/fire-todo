@@ -17,6 +17,7 @@
     <string name="select_the_list">Selecione a lista</string>
     <string name="action_cancel">Cancelar</string>
     <string name="field_empty">Este campo é obrigatório</string>
+    <string name="title_activity_edit_task">Edit Task</string>
     <string-array name="list_type_arrays">
         <item>Pendente</item>
         <item>Pronto</item>

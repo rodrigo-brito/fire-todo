@@ -37,7 +37,6 @@ public class TaskArrayAdapter extends ArrayAdapter<Task>{
     @Override
     public View getView(final int position, View convertView, final ViewGroup parent) {
         final Task task = getItem(position);
-        // Check if an existing view is being reused, otherwise inflate the view
         if (convertView == null) {
             convertView = LayoutInflater.from(getContext()).inflate(R.layout.task_row_item, parent, false);
         }
@@ -50,8 +49,10 @@ public class TaskArrayAdapter extends ArrayAdapter<Task>{
         if( task.getDate() != null){
             DateUtil dateUtil = new DateUtil(getContext());
             data.setText(dateUtil.parse(task.getDate()));
+            data.setVisibility(View.VISIBLE);
         }else{
             data.setText("");
+            data.setVisibility(View.GONE);
         }
         checkBox.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -68,10 +69,12 @@ public class TaskArrayAdapter extends ArrayAdapter<Task>{
     private class UpdateTask extends AsyncTask<Task, Void, Void>{
         private Context context;
         private UpdateAdapter updateAdapter;
+
         public UpdateTask(Context context, UpdateAdapter updateAdapter){
             this.context = context;
             this.updateAdapter = updateAdapter;
         }
+
         @Override
         protected Void doInBackground(Task... tasks) {
             for(Task task : tasks) {

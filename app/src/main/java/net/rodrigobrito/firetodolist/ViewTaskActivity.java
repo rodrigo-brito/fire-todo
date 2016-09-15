@@ -12,13 +12,17 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import net.rodrigobrito.firetodolist.data.TaskDBHelper;
+import net.rodrigobrito.firetodolist.model.Task;
+import net.rodrigobrito.firetodolist.util.DateUtil;
 
 public class ViewTaskActivity extends AppCompatActivity {
 
     private int id;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -31,19 +35,32 @@ public class ViewTaskActivity extends AppCompatActivity {
     }
 
     @Override
+    protected void onResume() {
+        super.onResume();
+        updateFields();
+    }
+
+    public void updateFields(){
+        Task task = TaskDBHelper.getInstance(this).getTask(String.valueOf(this.id));
+
+        TextView titulo = (TextView) findViewById(R.id.title_view);
+        TextView data = (TextView) findViewById(R.id.date_view);
+        TextView descricao = (TextView) findViewById(R.id.decription_view);
+
+        titulo.setText(task.getTitle());
+        descricao.setText(task.getDescription());
+        data.setText(new DateUtil(this).parse(task.getDate()));
+    }
+
+    @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_view_task, menu);
         return true;
     }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
         int id_menu = item.getItemId();
-        //noinspection SimplifiableIfStatement
         if (id_menu == R.id.action_delete) {
             if(this.id == 0) {
                 Toast.makeText(this, "Task identifier unavaliable", Toast.LENGTH_SHORT);
@@ -52,6 +69,14 @@ public class ViewTaskActivity extends AppCompatActivity {
                 deleteTask.execute(this.id);
             }
             return true;
+        }else if(id_menu == R.id.action_edit){
+            if(this.id == 0) {
+                Toast.makeText(this, "Task identifier unavaliable", Toast.LENGTH_SHORT);
+            }else{
+                Intent intent = new Intent(this, EditViewActivity.class);
+                intent.putExtra("id", String.valueOf(id));
+                startActivity(intent);
+            }
         }
 
         return super.onOptionsItemSelected(item);
