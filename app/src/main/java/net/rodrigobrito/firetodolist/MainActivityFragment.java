@@ -1,14 +1,17 @@
 package net.rodrigobrito.firetodolist;
 
+import android.app.Activity;
 import android.app.Dialog;
 import android.content.Context;
 import android.content.Intent;
 import android.database.Cursor;
 import android.os.AsyncTask;
 import android.support.annotation.Nullable;
+import android.support.annotation.StringDef;
 import android.support.v4.app.Fragment;
 import android.os.Bundle;
 import android.view.LayoutInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
@@ -93,6 +96,30 @@ public class MainActivityFragment extends Fragment implements UpdateAdapter {
     public void onStart() {
         super.onStart();
         this.update();
+    }
+
+    @Override
+    public boolean onContextItemSelected(MenuItem item) {
+        AdapterView.AdapterContextMenuInfo info = (AdapterView.AdapterContextMenuInfo) item.getMenuInfo();
+        Task task = taskArrayAdapter.getItem(info.position);
+        switch (item.getItemId()) {
+            case R.id.action_delete:
+                DeleteTask deleteTask = new DeleteTask(getContext(), this);
+                deleteTask.execute(task.get_id());
+                return true;
+            case R.id.action_edit:
+                Intent intent2 = new Intent(getContext(), EditViewActivity.class);
+                intent2.putExtra("id", String.valueOf(task.get_id()));
+                startActivity(intent2);
+                return true;
+            case R.id.action_show:
+                Intent intent3 = new Intent(getContext(), ViewTaskActivity.class);
+                intent3.putExtra("id", task.get_id());
+                startActivity(intent3);
+                return true;
+            default:
+                return super.onContextItemSelected(item);
+        }
     }
 
     @Override
@@ -204,6 +231,32 @@ public class MainActivityFragment extends Fragment implements UpdateAdapter {
         @Override
         protected void onPostExecute(Cursor cursor) {
             updateAdapter.updateTaskArrayAdapter(cursor);
+        }
+    }
+
+    private class DeleteTask extends AsyncTask<Integer, Void, Void>{
+
+        private UpdateAdapter updateAdapter;
+        private Context context;
+
+        public DeleteTask(Context context, UpdateAdapter updateAdapter) {
+            this.updateAdapter = updateAdapter;
+            this.context = context;
+        }
+
+        @Override
+        protected Void doInBackground(Integer... integers) {
+            for(Integer id: integers){
+                TaskDBHelper taskDBHelper = TaskDBHelper.getInstance(this.context);
+                taskDBHelper.delete(id);
+            }
+            return null;
+        }
+
+        @Override
+        protected void onPostExecute(Void aVoid) {
+            super.onPostExecute(aVoid);
+            updateAdapter.update();
         }
     }
 }

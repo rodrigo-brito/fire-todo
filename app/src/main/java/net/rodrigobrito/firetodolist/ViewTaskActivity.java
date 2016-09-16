@@ -49,7 +49,12 @@ public class ViewTaskActivity extends AppCompatActivity {
 
         titulo.setText(task.getTitle());
         descricao.setText(task.getDescription());
-        data.setText(new DateUtil(this).parse(task.getDate()));
+        if(task.getDate() == null){
+            data.setVisibility(View.GONE);
+        }else {
+            data.setVisibility(View.VISIBLE);
+            data.setText(new DateUtil(this).parse(task.getDate()));
+        }
     }
 
     @Override

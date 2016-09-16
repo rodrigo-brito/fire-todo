@@ -5,6 +5,21 @@
     tools:context="net.rodrigobrito.firetodolist.MainActivityFragment"
     tools:showIn="@layout/activity_main">
 
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/list_type"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:spinnerMode="dropdown"
+        android:background="@drawable/spinner_bg"
+        style="@style/spinner_style"
+        android:entries="@array/list_type_arrays"
+        android:prompt="@string/select_the_list"/>
+
     <ListView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -16,17 +31,4 @@
         android:layout_alignParentEnd="true"
         android:layout_below="@+id/list_type" />
 
-    <Spinner
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/list_type"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:spinnerMode="dropdown"
-        style="@style/spinner_style"
-        android:entries="@array/list_type_arrays"
-        android:prompt="@string/select_the_list"/>
 </RelativeLayout>

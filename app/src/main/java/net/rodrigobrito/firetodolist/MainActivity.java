@@ -72,21 +72,4 @@ public class MainActivity extends AppCompatActivity {
         MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.context_menu, menu);
     }
-
-    @Override
-    public boolean onContextItemSelected(MenuItem item) {
-        AdapterView.AdapterContextMenuInfo info = (AdapterView.AdapterContextMenuInfo) item.getMenuInfo();
-        switch (item.getItemId()) {
-            case R.id.action_delete:
-                Toast.makeText(this, "Delete", Toast.LENGTH_SHORT).show();
-                return true;
-            case R.id.action_edit:
-                Toast.makeText(this, "Edit", Toast.LENGTH_SHORT).show();
-                return true;
-            case R.id.action_show:
-                Toast.makeText(this, "Show", Toast.LENGTH_SHORT).show();
-            default:
-                return super.onContextItemSelected(item);
-        }
-    }
 }
