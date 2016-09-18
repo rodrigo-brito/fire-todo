@@ -15,7 +15,6 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:spinnerMode="dropdown"
-        android:background="@drawable/spinner_bg"
         style="@style/spinner_style"
         android:entries="@array/list_type_arrays"
         android:prompt="@string/select_the_list"/>
