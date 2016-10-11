@@ -22,4 +22,5 @@
     <string name="action_cancel">Cancel</string>
     <string name="field_empty">This field is required</string>
     <string name="title_activity_edit_task">Edit Task</string>
+    <string name="description">A fast To-do list. Simple and useful tool for management of taks and reminders.  You can create tasks with a title, date and description. The Fire TODOList is very fast and clean. Made to be easy to use.  The Fire TODOList have three lists: Pending, Done and All, separating the done tasks of the others. Perfect for management and organize your tasks and reminders.</string>
 </resources>
