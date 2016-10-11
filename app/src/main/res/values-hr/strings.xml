@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fire TODOList</string>
+    <string name="tasks">Zadatci</string>
+    <string name="action_settings">Postavke</string>
+    <string name="title_activity_new_task">Novi Zadatak</string>
+    <string name="action_save">Spremi</string>
+    <string name="placeholder_title">Naslov</string>
+    <string name="pending">Na Čekanju</string>
+    <string name="done">Završeno</string>
+    <string name="all">Sve</string>
+    <string name="placeholder_date">Datum</string>
+    <string name="placeholder_description">Opis</string>
+    <string name="action_calendar">Datum</string>
+    <string name="action_time">Vrijeme</string>
+    <string name="select_time">Datum / Vrijeme</string>
+    <string name="title_activity_view_task">Pogledaj Zadatak</string>
+    <string name="action_delete">Obriši</string>
+    <string name="action_edit">Uredi</string>
+    <string name="action_show">Prikaži Detalje</string>
+    <string name="select_the_list">Odaberi Listu</string>
+    <string name="action_cancel">Otkaži</string>
+    <string name="field_empty">Ovo polje je obavezno</string>
+    <string name="title_activity_edit_task">Uredi Zadatak</string>
+    <string name="description">Brza To-do lista. Jednostavan i koristan alat za organiziranje zadataka i potsjetnika. Možete stvoriti zadatak sa naslovom, datumom, i opisom. Fire TODOList je brz i jednostavan. Napravljen za laku upotrebu. Fire TODOList ima tri liste: Na Čekanju, Završeno, i Sve, i tako odvaja zadatke jedne od drugih. Savršeno za organiziranje vaših zadataka i potsjetnika.</string>
+</resources>
