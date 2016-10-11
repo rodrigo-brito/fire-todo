@@ -1,13 +1,10 @@
 package net.rodrigobrito.firetodolist;
 
-import android.app.Activity;
-import android.app.Dialog;
 import android.content.Context;
 import android.content.Intent;
 import android.database.Cursor;
 import android.os.AsyncTask;
 import android.support.annotation.Nullable;
-import android.support.annotation.StringDef;
 import android.support.v4.app.Fragment;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -16,30 +13,40 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ListView;
-import android.widget.Spinner;
 import android.widget.Toast;
 
+import net.rodrigobrito.firetodolist.adapters.TaskArrayAdapter;
+import net.rodrigobrito.firetodolist.adapters.UpdateAdapter;
 import net.rodrigobrito.firetodolist.data.TaskDBHelper;
 import net.rodrigobrito.firetodolist.model.Task;
 import net.rodrigobrito.firetodolist.data.TaskContract.TaskEntry;
-import net.rodrigobrito.firetodolist.util.DateUtil;
 
 import java.util.ArrayList;
 import java.util.Date;
 
-/**
- * A placeholder fragment containing a simple view.
- */
 public class MainActivityFragment extends Fragment implements UpdateAdapter {
 
     private TaskArrayAdapter taskArrayAdapter;
+    private int typeList;
+    public MainActivityFragment() { }
 
-    public MainActivityFragment() {
+    public static MainActivityFragment newInstance(int type) {
+        MainActivityFragment myFragment = new MainActivityFragment();
+
+        Bundle args = new Bundle();
+        args.putInt("typeList", type);
+        myFragment.setArguments(args);
+
+        return myFragment;
     }
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        //Store the listType
+        if(savedInstanceState == null){
+            typeList = getArguments().getInt("typeList", 0);
+        }
     }
 
     @Override
@@ -59,31 +66,6 @@ public class MainActivityFragment extends Fragment implements UpdateAdapter {
                 Intent intent = new Intent(getActivity(), ViewTaskActivity.class);
                 intent.putExtra("id", task.get_id());
                 startActivity(intent);
-            }
-        });
-
-        Spinner spinner = (Spinner) rootView.findViewById(R.id.list_type);
-        spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
-            @Override
-            public void onItemSelected(AdapterView<?> adapterView, View view, int position, long l) {
-                switch (position){
-                    case 0:
-                        GetPendingTasks getPendingTasks = new GetPendingTasks(getContext(), MainActivityFragment.this);
-                        getPendingTasks.execute();
-                        break;
-                    case 1:
-                        GetDoneTasks getDoneTasks = new GetDoneTasks(getContext(), MainActivityFragment.this);
-                        getDoneTasks.execute();
-                        break;
-                    case 2:
-                        GetAllTasks getAllTasks = new GetAllTasks(getContext(), MainActivityFragment.this);
-                        getAllTasks.execute();
-                        break;
-                }
-            }
-
-            @Override
-            public void onNothingSelected(AdapterView<?> adapterView) {
             }
         });
 
@@ -150,19 +132,17 @@ public class MainActivityFragment extends Fragment implements UpdateAdapter {
 
     @Override
     public void update() {
-        Spinner spinner = (Spinner) getActivity().findViewById(R.id.list_type);
-        int position =  spinner.getSelectedItemPosition();
-        switch (position){
+        switch (typeList){
             case 0:
-                GetPendingTasks getPendingTasks = new GetPendingTasks(getContext(), MainActivityFragment.this);
+                GetPendingTasks getPendingTasks = new GetPendingTasks(getContext(), this);
                 getPendingTasks.execute();
                 break;
             case 1:
-                GetDoneTasks getDoneTasks = new GetDoneTasks(getContext(), MainActivityFragment.this);
+                GetDoneTasks getDoneTasks = new GetDoneTasks(getContext(), this);
                 getDoneTasks.execute();
                 break;
             case 2:
-                GetAllTasks getAllTasks = new GetAllTasks(getContext(), MainActivityFragment.this);
+                GetAllTasks getAllTasks = new GetAllTasks(getContext(), this);
                 getAllTasks.execute();
                 break;
         }

@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Fire TODOList</string>
+    <string name="tasks">Tarefas</string>
     <string name="action_settings">Configurações</string>
     <string name="title_activity_new_task">Nova Tarefa</string>
     <string name="action_save">Salvar</string>
     <string name="placeholder_title">Título</string>
+    <string name="pending">Pendente</string>
+    <string name="done">Pronto</string>
+    <string name="all">Todos</string>
     <string name="placeholder_date">Data</string>
     <string name="placeholder_description">Descrição</string>
     <string name="action_calendar">Data</string>
@@ -17,10 +21,5 @@
     <string name="select_the_list">Selecione a lista</string>
     <string name="action_cancel">Cancelar</string>
     <string name="field_empty">Este campo é obrigatório</string>
-    <string name="title_activity_edit_task">Edit Task</string>
-    <string-array name="list_type_arrays">
-        <item>Pendente</item>
-        <item>Pronto</item>
-        <item>Todos</item>
-    </string-array>
+    <string name="title_activity_edit_task">Editar Tarefa</string>
 </resources>

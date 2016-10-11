@@ -1,10 +1,7 @@
-package net.rodrigobrito.firetodolist;
+package net.rodrigobrito.firetodolist.adapters;
 
 import android.content.Context;
-import android.content.Intent;
-import android.database.Cursor;
 import android.os.AsyncTask;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -12,13 +9,13 @@ import android.widget.ArrayAdapter;
 import android.widget.CheckBox;
 import android.widget.TextView;
 
-import net.rodrigobrito.firetodolist.data.TaskContract;
+import net.rodrigobrito.firetodolist.R;
+import net.rodrigobrito.firetodolist.adapters.UpdateAdapter;
 import net.rodrigobrito.firetodolist.data.TaskDBHelper;
 import net.rodrigobrito.firetodolist.model.Task;
 import net.rodrigobrito.firetodolist.util.DateUtil;
 
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 
 /**

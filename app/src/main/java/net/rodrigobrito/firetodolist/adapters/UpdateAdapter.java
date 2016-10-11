@@ -1,4 +1,4 @@
-package net.rodrigobrito.firetodolist;
+package net.rodrigobrito.firetodolist.adapters;
 
 import android.database.Cursor;
 
