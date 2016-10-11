@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fire TODOList</string>
+    <string name="tasks">Задачи</string>
+    <string name="action_settings">Настройки</string>
+    <string name="title_activity_new_task">Новая задача</string>
+    <string name="action_save">Сохранить</string>
+    <string name="placeholder_title">Заголовок</string>
+    <string name="pending">В ожидании</string>
+    <string name="done">Готово</string>
+    <string name="all">Все</string>
+    <string name="placeholder_date">Дата</string>
+    <string name="placeholder_description">Описание</string>
+    <string name="action_calendar">Дата</string>
+    <string name="action_time">Время</string>
+    <string name="select_time">Дата / Время</string>
+    <string name="title_activity_view_task">Просмотр задачи</string>
+    <string name="action_delete">Удалить</string>
+    <string name="action_edit">Редактировать</string>
+    <string name="action_show">Показать подробности</string>
+    <string name="select_the_list">Выбрать список</string>
+    <string name="action_cancel">Отмена</string>
+    <string name="field_empty">Это поле обязательно для заполнения</string>
+    <string name="title_activity_edit_task">Редактировать задачу</string>
+    <string name="description">Быстрый список задач. Простой и полезный инструмент для управления задачами и напоминаниями. Вы можете создавать задачи с названием, датой и описанием. Fire TODOList очень быстр и прост. Сделан так, чтобы быть простым в использовании. В Fire TODOList есть три списка задач: "В ожидании", "Готово" и "Все", отделяя выполненные задачи от остальных. Идеально подходит для управления и организации ваших задач и напоминаний.</string>
+</resources>
