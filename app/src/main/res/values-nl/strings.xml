@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fire TODOList</string>
+    <string name="tasks">Taken</string>
+    <string name="action_settings">Instellingen</string>
+    <string name="title_activity_new_task">Nieuwe Taak</string>
+    <string name="action_save">Opslaan</string>
+    <string name="placeholder_title">Titel</string>
+    <string name="pending">Bezig</string>
+    <string name="done">Klaar</string>
+    <string name="all">Alles</string>
+    <string name="placeholder_date">Datum</string>
+    <string name="placeholder_description">Beschrijving</string>
+    <string name="action_calendar">Datum</string>
+    <string name="action_time">Tijd</string>
+    <string name="select_time">Datum / Tijd</string>
+    <string name="title_activity_view_task">Bekijk Taak</string>
+    <string name="action_delete">Verwijderen</string>
+    <string name="action_edit">Aanpassen</string>
+    <string name="action_show">Bekijk details</string>
+    <string name="select_the_list">Selecteer de lijst</string>
+    <string name="action_cancel">Annuleer</string>
+    <string name="field_empty">Dit veld is verplicht</string>
+    <string name="title_activity_edit_task">Taak aanpassen</string>
+    <string name="description">Een snelle to-do lijst. Een simpele en handige tool voor het beheren van taken en herinneringen. Je kan een taak aanmaken met een titel, datum en beschrijving. De Fire to-do lijst is supersnel en overzichtelijk. Gemaakt voor gebruiksvriendelijkheid. De Fire to-do lijst bevat drie lijsten: Bezig, Klaar en Alles, die alle afgeronde taken scheidt van de andere. Perfect om jouw taken en herinneringen te beheren en organiseren.</string>
+</resources>
