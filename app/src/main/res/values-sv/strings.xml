@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fire TODOList</string>
+    <string name="tasks">Uppgifter</string>
+    <string name="action_settings">Inställningar</string>
+    <string name="title_activity_new_task">Ny Uppgift</string>
+    <string name="action_save">Spara</string>
+    <string name="placeholder_title">Titel</string>
+    <string name="pending">Pågående</string>
+    <string name="done">Gjord</string>
+    <string name="all">Alla</string>
+    <string name="placeholder_date">Datum</string>
+    <string name="placeholder_description">Beskrivning</string>
+    <string name="action_calendar">Datum</string>
+    <string name="action_time">Tid</string>
+    <string name="select_time">Datum / Tid</string>
+    <string name="title_activity_view_task">Visa Uppgift</string>
+    <string name="action_delete">Radera</string>
+    <string name="action_edit">Redigera</string>
+    <string name="action_show">Visa detaljer</string>
+    <string name="select_the_list">Välj listan</string>
+    <string name="action_cancel">Avbryt</string>
+    <string name="field_empty">Detta fält är obligatoriskt</string>
+    <string name="title_activity_edit_task">Redigera Uppgift</string>
+    <string name="description">En snabb "att-göra" lista. Simpelt och användbart verktyg för hantering av uppgifter och påminnelser. Man kan skapa uppgifter med titel, datum och beskrivning. Fire TODOList är mycket snabb och ren. Gjord för att vara enkel att använda. Fire TODOList har tre listor: Pågående, Gjord och Alla, för att separera gjorda uppgifter från de andra. Perfekt för hantering och organisation av dina uppgifter och påminnelser.</string>
+</resources>
