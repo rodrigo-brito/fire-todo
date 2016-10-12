@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fire TODOList</string>
+    <string name="action_calendar">तारीख</string>
+    <string name="action_cancel">रद्द करें</string>
+    <string name="action_delete">मिटाएं</string>
+    <string name="action_edit">संपादित करें</string>
+    <string name="action_save">बचा ले</string>
+    <string name="action_settings">सेटिंग्स</string>
+    <string name="action_show">विवरण दिखाएँ</string>
+    <string name="action_time">समय</string>
+    <string name="all">सभी</string>
+    <string name="description">कार्यों और अनुस्मारक के प्रबंधन के लिए सरल और उपयोगी उपकरण। तुम एक शीर्षक, तारीख और विवरण के साथ कार्यों को बना सकते हैं। FIRE TODOList बहुत तेज और प्रयोग करने में आसान है। FIRE TODOList प्रबंधन के लिए और अपने कार्यों को और अनुस्मारक का आयोजन करने के लिए बिल्कुल सही है।</string>
+    <string name="done">कर लिया</string>
+    <string name="field_empty">यह फ़ील्ड आवश्यक है</string>
+    <string name="pending">अपूर्ण</string>
+    <string name="placeholder_date">तारीख</string>
+    <string name="placeholder_description">विवरण</string>
+    <string name="placeholder_title">शीर्षक</string>
+    <string name="select_the_list">सूची का चयन करें</string>
+    <string name="select_time">तारीख / समय</string>
+    <string name="tasks">कार्य</string>
+    <string name="title_activity_edit_task">टास्क संपादित करें</string>
+    <string name="title_activity_new_task">नया कार्य</string>
+    <string name="title_activity_view_task">टास्क देखें</string>
+</resources>
