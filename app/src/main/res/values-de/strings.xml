@@ -13,7 +13,7 @@
     <string name="placeholder_description">Beschreibung</string>
     <string name="action_calendar">Kalender</string>
     <string name="action_time">Uhrzeit</string>
-    <string name="select_time">Datum / Uhreit</string>
+    <string name="select_time">Datum / Uhrzeit</string>
     <string name="title_activity_view_task">Ansicht einer Aufgabe</string>
     <string name="action_delete">Löschen</string>
     <string name="action_edit">Bearbeiten</string>
