@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fire TODOList</string>
+    <string name="tasks">Tasques</string>
+    <string name="action_settings">Configuració</string>
+    <string name="title_activity_new_task">Nova tasca</string>
+    <string name="action_save">Guardar</string>
+    <string name="placeholder_title">Títol</string>
+    <string name="pending">Pendents</string>
+    <string name="done">Acabades</string>
+    <string name="all">Totes</string>
+    <string name="placeholder_date">Data</string>
+    <string name="placeholder_description">Descripció</string>
+    <string name="action_calendar">Data</string>
+    <string name="action_time">Hora</string>
+    <string name="select_time">Data / Hora</string>
+    <string name="title_activity_view_task">Visualitzar</string>
+    <string name="action_delete">Eliminar</string>
+    <string name="action_edit">Editar</string>
+    <string name="action_show">Mostrar detalls</string>
+    <string name="select_the_list">Seleccionar la lista</string>
+    <string name="action_cancel">Cancel·lar</string>
+    <string name="field_empty">Aquest camp és obligatori</string>
+    <string name="title_activity_edit_task">Editar tasca</string>
+    <string name="description">Una llista de tasques molt ràpida. Una eina simple i útil per gestionar tasques i
+        recordatoris. Pot crear tasques amb títol, data i descripció. L\'aplicació Fire TODOList és molt ràpida i
+        neta. Feta perquè sigui fàcil d\'utilitzar. Fire TODOList té tres tipus de llistes: Pendents, Acabades i
+        Totes, separant les tasques finalitzades de la resta. És perfecta per la gestió i organització de les seves
+        tasques i recordatoris.</string>
+</resources>
