@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fire TODOList</string>
+    <string name="tasks">Oppgaver</string>
+    <string name="action_settings">Instillinger</string>
+    <string name="title_activity_new_task">Ny oppgave</string>
+    <string name="action_save">Lagre</string>
+    <string name="placeholder_title">Tittel</string>
+    <string name="pending">Pågående</string>
+    <string name="done">Ferdig</string>
+    <string name="all">Alle</string>
+    <string name="placeholder_date">Dato</string>
+    <string name="placeholder_description">Beskrivelse</string>
+    <string name="action_calendar">Dato</string>
+    <string name="action_time">Tid</string>
+    <string name="select_time">Dato/Tid</string>
+    <string name="title_activity_view_task">Vis oppgaver</string>
+    <string name="action_delete">Slett</string>
+    <string name="action_edit">Rediger</string>
+    <string name="action_show">Vis detaljer</string>
+    <string name="select_the_list">Velg listen</string>
+    <string name="action_cancel">Avbryt</string>
+    <string name="field_empty">Feltet er obligatorisk</string>
+    <string name="title_activity_edit_task">Rediger oppgave</string>
+    <string name="description">En rask oppgaveoversikt. Enkelt og nyttig verktøy for håndtering av oppgaver og påminnelser. Du kan opprette oppgaver med tittel, dato og beskrivelse. Fire TODOList er veldig effektiv i bruk.  Fire TODOList har tre lister; have three lists: pågående, ferdige og alle. Perfekt for håndtering og organisering av dine oppgaver og påminnelser.</string>
+</resources>
