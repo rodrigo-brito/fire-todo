@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fire TODOList</string>
+    <string name="tasks">কাজ</string>
+    <string name="action_settings">সেটিং</string>
+    <string name="title_activity_new_task">নতুন কাজ</string>
+    <string name="action_save">ভর্তি করুন</string>
+    <string name="placeholder_title">শিরোনাম</string>
+    <string name="pending">বেচে থাকা কাজ</string>
+    <string name="done">হয়ে গেছে</string>
+    <string name="all">সব</string>
+    <string name="placeholder_date">তারিখ</string>
+    <string name="placeholder_description">বিবরণ</string>
+    <string name="action_calendar">তারিখ</string>
+    <string name="action_time">সময়</string>
+    <string name="select_time">তারিখ / সময়</string>
+    <string name="title_activity_view_task">কাজ দেখুন</string>
+    <string name="action_delete">মুছে দিন</string>
+    <string name="action_edit">ঠিক করুন</string>
+    <string name="action_show">বিবরণ দেখুন</string>
+    <string name="select_the_list">তালিকা চয়ন করুন</string>
+    <string name="action_cancel">বাতিল</string>
+    <string name="field_empty">এই জায়গা টি পূরণ করা জরুরি</string>
+    <string name="title_activity_edit_task">কাজ টি ঠিক করুন</string>
+    <string name="description">এটি একটি সুন্দর এবং দ্রুত কাজের তালিকে ও কাজ মনে করানর অ্যাপ। Fire TODOList অ্যাপ টি তে তিনটে তালিকা আছে ঃ জমে থাকা কাজ , হয়ে যাওয়া কাজ এবং সব কাজ , অন্য দের হয়ে যাওয়া কাজ আলাদা করার জন্যে । এটি ব্যাবহার করুন এবং নিজের জমে থাকা কাজ সুন্দর ভাবে সাজিয়ে পূর্ণ করুন।</string>
+</resources>
