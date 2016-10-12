@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fire TODOList</string>
+    <string name="tasks">Завдання</string>
+    <string name="action_settings">Налаштування</string>
+    <string name="title_activity_new_task">Нове завдання</string>
+    <string name="action_save">Зберегти</string>
+    <string name="placeholder_title">Заголовок</string>
+    <string name="pending">В очікуванні</string>
+    <string name="done">Завершено</string>
+    <string name="all">Всі</string>
+    <string name="placeholder_date">Дата</string>
+    <string name="placeholder_description">Опис</string>
+    <string name="action_calendar">Дата</string>
+    <string name="action_time">Час</string>
+    <string name="select_time">Дата / Час</string>
+    <string name="title_activity_view_task">Переглянути завдання</string>
+    <string name="action_delete">Видалити</string>
+    <string name="action_edit">Редагувати</string>
+    <string name="action_show">Показати деталі</string>
+    <string name="select_the_list">Обрати з списку</string>
+    <string name="action_cancel">Відмінити</string>
+    <string name="field_empty">Поле є обов'язковим</string>
+    <string name="title_activity_edit_task">Редагувати завдання</string>
+    <string name="description"> Швидкий список завдань. Простий та корисний додаток для організації завдань та нагадувань. Ви можете створювати завдання з заголовком, датою та описом. Fire TODOList дуже швидкий та простий. Створений бути зручним у використанні. Fire TODOList має 3 списки: В очікуванні, Зроблено та Всі, відділяє виконані завдання окремо від інших. Ідеальний для менеджменту та організації твоїх завдань та нагадувань.</string>
+</resources>
