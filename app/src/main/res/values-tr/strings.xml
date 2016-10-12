@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fire TODOList</string>
+    <string name="tasks">Görevler</string>
+    <string name="action_settings">Ayarlar</string>
+    <string name="title_activity_new_task">Yeni Görev</string>
+    <string name="action_save">Kaydet</string>
+    <string name="placeholder_title">Başlık</string>
+    <string name="pending">Beklemede</string>
+    <string name="done">Tamamlandı</string>
+    <string name="all">Hepsi</string>
+    <string name="placeholder_date">Tarih</string>
+    <string name="placeholder_description">Açıklama</string>
+    <string name="action_calendar">Tarih</string>
+    <string name="action_time">Zaman</string>
+    <string name="select_time">Tarih / Zaman</string>
+    <string name="title_activity_view_task">Görevi Gör</string>
+    <string name="action_delete">Sil</string>
+    <string name="action_edit">Düzenle</string>
+    <string name="action_show">Detayları göster</string>
+    <string name="select_the_list">Listeyi seç</string>
+    <string name="action_cancel">İptal</string>
+    <string name="field_empty">Bu alanın doldurulması gerekli</string>
+    <string name="title_activity_edit_task">Görevi Düzenle</string>
+    <string name="description">Hızlı bir yapılacaklar listesi.  Görevlerin ve hatırlatmaların yönetilebilmesi için basit ve kullanışlı bir araç.  Bir başlık, tarih ve açıklamayla görevler oluşturabilirsiniz.  The Fire TODOList çok hızlı ve sorunsuz. Kolay kullanım için yapıldı.  The Fire TODOList'in üç listesi var: Beklemede, Tamamlandı ve Hepsi, tamamlanan görevleri diğerlerinden ayırt ediyor. Görevlerinizi ve hatırlatmalarınızı yönetmek ve organize etmek için mükemmel.</string>
+</resources>
