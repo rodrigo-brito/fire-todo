@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fire TODOList</string>
+    <string name="tasks">任务</string>
+    <string name="action_settings">设置</string>
+    <string name="title_activity_new_task">新任务</string>
+    <string name="action_save">保存</string>
+    <string name="placeholder_title">标题</string>
+    <string name="pending">待定</string>
+    <string name="done">完成</string>
+    <string name="all">所有</string>
+    <string name="placeholder_date">日期</string>
+    <string name="placeholder_description">描述</string>
+    <string name="action_calendar">日期</string>
+    <string name="action_time">时间</string>
+    <string name="select_time">日期 / 时间</string>
+    <string name="title_activity_view_task">查看任务</string>
+    <string name="action_delete">删除</string>
+    <string name="action_edit">编辑</string>
+    <string name="action_show">显示详细资料</string>
+    <string name="select_the_list">选择列表</string>
+    <string name="action_cancel">取消</string>
+    <string name="field_empty">这是必填栏</string>
+    <string name="title_activity_edit_task">编辑任务</string>
+    <string name="description">一个有效的待办事项列表. 一个简单而有用的工具，用于管理任务和提醒.  您可以使用标题，日期和说明创建任务. Fire TODOList 是非常快速和干净. 使得易于使用. Fire TODOList 有三个列表: 待定, 完成和所有. 完美的管理和组织您的任务和提醒.</string>
+</resources>
