@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fire TODOList</string>
+    <string name="tasks">Aufgaben</string>
+    <string name="action_settings">Einstellungen</string>
+    <string name="title_activity_new_task">Neuer Aufgabe</string>
+    <string name="action_save">Speichern</string>
+    <string name="placeholder_title">Titel</string>
+    <string name="pending">Noch nicht erledigt</string>
+    <string name="done">Erledigt</string>
+    <string name="all">Alle</string>
+    <string name="placeholder_date">Datum</string>
+    <string name="placeholder_description">Beschreibung</string>
+    <string name="action_calendar">Datum</string>
+    <string name="action_time">Zeit</string>
+    <string name="select_time">Datum / Zeit</string>
+    <string name="title_activity_view_task">Zeige Aufgabe</string>
+    <string name="action_delete">Löschen</string>
+    <string name="action_edit">Bearbeiten</string>
+    <string name="action_show">Zeige Details</string>
+    <string name="select_the_list">Wähle aus der Liste</string>
+    <string name="action_cancel">Abbrechen</string>
+    <string name="field_empty">Dieses Feld wird benötigt</string>
+    <string name="title_activity_edit_task">Aufgabe editieren</string>
+    <string name="description">Eine schnelle To-do list. Einfache und gut zu bedienende Applikation für die Verwaltung von Aufgaben und Erinnerungen.Aufgaben können angelegt werden mit Titel, Datum und Beschreibung. Die Fire TODOList ist sehr schnell und aufgeräumt. Sie ist einfach zu benutzen. Die Fire TODOList besteht aus drei Listen: Noch nicht erledigt, Erledigt und Alle, zusätzlich sind die erledigten Aufgaben von den anderen getrennt. Perfekt für die Verwaltung und das Organisieren von Aufgaben und Erinnerungen.</string>
+</resources>
