@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fire TODOList</string>
+    <string name="tasks">Tugas</string>
+    <string name="action_settings">Pengaturan</string>
+    <string name="title_activity_new_task">Tugas Baru</string>
+    <string name="action_save">Simpan</string>
+    <string name="placeholder_title">Judul</string>
+    <string name="pending">Ditunda</string>
+    <string name="done">Selesai</string>
+    <string name="all">Semua</string>
+    <string name="placeholder_date">Tanggal</string>
+    <string name="placeholder_description">Deskripsi</string>
+    <string name="action_calendar">Tanggal</string>
+    <string name="action_time">Waktu</string>
+    <string name="select_time">Tanggal / Waktu</string>
+    <string name="title_activity_view_task">Lihat Tugas</string>
+    <string name="action_delete">Hapus</string>
+    <string name="action_edit">Sunting</string>
+    <string name="action_show">Tampilkan Detail</string>
+    <string name="select_the_list">Pilih daftar</string>
+    <string name="action_cancel">Batal</string>
+    <string name="field_empty">Isian ini diperlukan</string>
+    <string name="title_activity_edit_task">Sunting Tugas</string>
+    <string name="description">Daftar tugas yang cepat. Piranti yang simpel dan sangat berguna untuk memanagemen tugas dan pengingat tugas.  Kamu dapat menuliskan tugas dengan judul, tanggal, dan deskripsi tugas. Fire TODOList sangat cepat dan bersih. Dibuat untuk kemudahan penggunaan. Fire TODOList memiliki tiga daftar: Ditunda, Selesai dan Semua, yang memisahkan antara pekerjaan yang telah selesai dengan yang lain. Sangan sempura untuk memanagemen dan mengorganisasikan pekerjaan dan sebagai pengingat.</string>
+</resources>

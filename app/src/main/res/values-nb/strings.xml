@@ -22,5 +22,5 @@
     <string name="action_cancel">Avbryt</string>
     <string name="field_empty">Feltet er obligatorisk</string>
     <string name="title_activity_edit_task">Rediger oppgave</string>
-    <string name="description">En rask oppgaveoversikt. Enkelt og nyttig verktøy for håndtering av oppgaver og påminnelser. Du kan opprette oppgaver med tittel, dato og beskrivelse. Fire TODOList er veldig effektiv i bruk.  Fire TODOList har tre lister; have three lists: pågående, ferdige og alle. Perfekt for håndtering og organisering av dine oppgaver og påminnelser.</string>
+    <string name="description">En rask oppgaveoversikt. Enkelt og nyttig verktøy for håndtering av oppgaver og påminnelser. Du kan opprette oppgaver med tittel, dato og beskrivelse. Fire TODOList er veldig effektiv i bruk.  Fire TODOList har tre lister; pågående, ferdige og alle. Perfekt for håndtering og organisering av dine oppgaver og påminnelser.</string>
 </resources>
