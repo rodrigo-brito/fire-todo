@@ -7,3 +7,4 @@
 /build
 /captures
 /app/google-services.json
+*.log

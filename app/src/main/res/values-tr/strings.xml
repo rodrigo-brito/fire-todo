@@ -22,5 +22,5 @@
     <string name="action_cancel">İptal</string>
     <string name="field_empty">Bu alanın doldurulması gerekli</string>
     <string name="title_activity_edit_task">Görevi Düzenle</string>
-    <string name="description">Hızlı bir yapılacaklar listesi.  Görevlerin ve hatırlatmaların yönetilebilmesi için basit ve kullanışlı bir araç.  Bir başlık, tarih ve açıklamayla görevler oluşturabilirsiniz.  The Fire TODOList çok hızlı ve sorunsuz. Kolay kullanım için yapıldı.  The Fire TODOList'in üç listesi var: Beklemede, Tamamlandı ve Hepsi, tamamlanan görevleri diğerlerinden ayırt ediyor. Görevlerinizi ve hatırlatmalarınızı yönetmek ve organize etmek için mükemmel.</string>
+    <string name="description">Hızlı bir yapılacaklar listesi.  Görevlerin ve hatırlatmaların yönetilebilmesi için basit ve kullanışlı bir araç.  Bir başlık, tarih ve açıklamayla görevler oluşturabilirsiniz.  The Fire TODOList çok hızlı ve sorunsuz. Kolay kullanım için yapıldı.  The Fire TODOList\'in üç listesi var: Beklemede, Tamamlandı ve Hepsi, tamamlanan görevleri diğerlerinden ayırt ediyor. Görevlerinizi ve hatırlatmalarınızı yönetmek ve organize etmek için mükemmel.</string>
 </resources>

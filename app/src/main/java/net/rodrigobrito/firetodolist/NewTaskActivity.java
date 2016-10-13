@@ -27,11 +27,15 @@ import android.widget.AdapterView.AdapterContextMenuInfo;
 import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
+import android.widget.FrameLayout;
 import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.TimePicker;
 import android.widget.Toast;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdSize;
+import com.google.android.gms.ads.AdView;
 import com.mobsandgeeks.saripaar.ValidationError;
 import com.mobsandgeeks.saripaar.Validator;
 import com.mobsandgeeks.saripaar.annotation.NotEmpty;
@@ -51,6 +55,7 @@ public class NewTaskActivity extends AppCompatActivity implements Validator.Vali
 
     private Calendar calendar;
     private Validator validator;
+    private FrameLayout mAdsFrame;
     @NotEmpty(messageResId = R.string.field_empty)
     private EditText titleTask;
 
@@ -64,6 +69,19 @@ public class NewTaskActivity extends AppCompatActivity implements Validator.Vali
         titleTask = (EditText) findViewById(R.id.title);
         validator = new Validator(this);
         validator.setValidationListener(this);
+
+        //Adsense
+        mAdsFrame = (FrameLayout) findViewById(R.id.ads_frame);
+        AdView mAdView = new AdView(this);
+        mAdView.setAdSize(AdSize.SMART_BANNER);
+        mAdView.setAdUnitId(getString(R.string.banner_ad_unit_id));
+        mAdsFrame.addView(mAdView);
+
+        AdRequest adRequest = new AdRequest.Builder()
+                .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
+                .addTestDevice(getString(R.string.phone_test_unique_id))
+                .build();
+        mAdView.loadAd(adRequest);
     }
 
     @Override
