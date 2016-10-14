@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Fire TODOList</string>
-    <string name="tasks">Úlohy</string>
+    <string name="tasks">Ãšlohy</string>
     <string name="action_settings">Nastavenia</string>
-    <string name="title_activity_new_task">Nová úloha</string>
-    <string name="action_save">Uloi?</string>
-    <string name="placeholder_title">Názov</string>
-    <string name="pending">Nedokon?ené</string>
-    <string name="done">Splnené</string>
-    <string name="all">Všetky</string>
-    <string name="placeholder_date">Dátum</string>
+    <string name="title_activity_new_task">NovÃ¡ Ãºloha</string>
+    <string name="action_save">UloÅ¾iÅ¥</string>
+    <string name="placeholder_title">NÃ¡zov</string>
+    <string name="pending">NedokonÄenÃ©</string>
+    <string name="done">SplnenÃ©</string>
+    <string name="all">VÅ¡etky</string>
+    <string name="placeholder_date">DÃ¡tum</string>
     <string name="placeholder_description">Popis</string>
-    <string name="action_calendar">Dátum</string>
-    <string name="action_time">?as</string>
-    <string name="select_time">Dátum / ?as</string>
-    <string name="title_activity_view_task">Zobrazi? úlohu</string>
-    <string name="action_delete">Vymaza?</string>
-    <string name="action_edit">Upravi?</string>
-    <string name="action_show">Zobrazi? detaily</string>
-    <string name="select_the_list">Oznai? zoznam</string>
-    <string name="action_cancel">Ukon?i?</string>
-    <string name="field_empty">Toto pole je potrebné</string>
-    <string name="title_activity_edit_task">Upravi? úlohu</string>
-    <string name="description">Rıchly zoznam úloh. Jednoduchı a uito?nı nástroj na správu úloh a pripomienok. Môete si vytvori? úlohy s názvom, dátumom a popisom. Fire TODOList je ve?my rıchly a preh?adnı. Jednoduchı na pouívanie.  Fire TODOList má tri zoznamy: Nedokon?ené, Splnené and Všetky, odde?uje splnené úlohy od ostatnıch. Perfektnı na správu a organizáciu Vaších úloh a pripomienok.</string>
+    <string name="action_calendar">DÃ¡tum</string>
+    <string name="action_time">ÄŒas</string>
+    <string name="select_time">DÃ¡tum / ÄŒas</string>
+    <string name="title_activity_view_task">ZobraziÅ¥ Ãºlohu</string>
+    <string name="action_delete">VymazaÅ¥</string>
+    <string name="action_edit">UpraviÅ¥</string>
+    <string name="action_show">ZobraziÅ¥ detaily</string>
+    <string name="select_the_list">OznaÅ¾iÅ¥ zoznam</string>
+    <string name="action_cancel">UkonÄiÅ¥</string>
+    <string name="field_empty">Toto pole je potrebnÃ©</string>
+    <string name="title_activity_edit_task">UpraviÅ¥ Ãºlohu</string>
+    <string name="description">RÃ½chly zoznam Ãºloh. JednoduchÃ½ a uÅ¾itoÄnÃ½ nÃ¡stroj na sprÃ¡vu Ãºloh a pripomienok. MÃ´Å¾ete si vytvoriÅ¥ Ãºlohy s nÃ¡zvom, dÃ¡tumom a popisom. Fire TODOList je veÄ¾my rÃ½chly a prehÄ¾adnÃ½. JednoduchÃ½ na pouÅ¾Ã­vanie.  Fire TODOList mÃ¡ tri zoznamy: NedokonÄenÃ©, SplnenÃ© and VÅ¡etky, oddeÄ¾uje splnenÃ© Ãºlohy od ostatnÃ½ch. PerfektnÃ½ na sprÃ¡vu a organizÃ¡ciu VaÅ¡Ã­ch Ãºloh a pripomienok.</string>
 </resources>
