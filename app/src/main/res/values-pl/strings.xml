@@ -5,8 +5,8 @@
     <string name="action_settings">Ustawienia</string>
     <string name="title_activity_new_task">Nowe zadanie</string>
     <string name="action_save">Zapisz</string>
-    <string name="placeholder_title">Tytu?</string>
-    <string name="pending">Oczekuj?ce</string>
+    <string name="placeholder_title">Tytuł</string>
+    <string name="pending">Oczekujące</string>
     <string name="done">Zrobione</string>
     <string name="all">Wszystko</string>
     <string name="placeholder_date">Data</string>
@@ -14,14 +14,15 @@
     <string name="action_calendar">Data</string>
     <string name="action_time">Czas</string>
     <string name="select_time">Data / Czas</string>
-    <string name="title_activity_view_task">Poka? zadanie</string>
-    <string name="action_delete">Usu?</string>
+    <string name="title_activity_view_task">Pokaż zadanie</string>
+    <string name="action_delete">Usuń</string>
     <string name="action_edit">Edytuj</string>
-    <string name="action_show">Poka? szczeg�?y</string>
-    <string name="select_the_list">Wybierz list?</string>
+    <string name="action_show">Pokaż szczegóły</string>
+    <string name="select_the_list">Wybierz listę</string>
     <string name="action_cancel">Anuluj</string>
     <string name="field_empty">To pole jest wymagane</string>
     <string name="title_activity_edit_task">Edytuj zadanie</string>
-    <string name="description">Szybka lista rzeczy do zrobienia. ?atwe i u?yteczne narz?dzie dla zarz?dzania zadaniami i przypomnieniami. Mo?esz stworzy? zadania z tytu?em, dat? i opisem. The Fire TODOList jest bardzo szybki i przejrzysty. Stworzony dla ?atwego u?ytku. The Fire TODOList posiada trzy listy: Oczekuj?ce, Zrobione i Wszystkie, oddzielaj?c zrobione zadania od innych. Idealne dla zarz?dzania i organizacji twoich zada? i przypomnie?.</string>
+    <string name="description">Szybka lista rzeczy do zrobienia. Łatwe i użyteczne narzędzie dla zarządzania zadaniami i przypomnieniami. Możesz stworzyć zadania z tytułem, datą i opisem. The Fire TODOList jest bardzo szybki i przejrzysty. Stworzony dla łatwego użytku. The Fire TODOList posiada trzy listy: Oczekujące, Zrobione i Wszystkie, oddzielając zrobione zadania od innych. Idealne dla zarządzania i organizacji twoich zadań i przypomnień.</string>
 </resources>
+
 
