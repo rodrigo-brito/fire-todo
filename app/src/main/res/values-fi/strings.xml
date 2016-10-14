@@ -22,5 +22,5 @@
     <string name="action_cancel">Peruuttaa</string>
     <string name="field_empty">Tämä kenttä pitää täyttää</string>
     <string name="title_activity_edit_task">Muokkaa Tehtävää</string>
-    <string name="description">Nopea Tehtävälista. Yksinkertainen ja hyödyllinen työkalu hallintaan tehtäviä ja muistutuksia. Voit luoda tehtäviä, joiden otsikko, päivämäärä ja kuvaus. Tuli todolist on erittäin nopea ja puhdas. Tehty on helppo käyttää. Tuli todolist on kolme listaa: saakka, Valmis ja kaikki, erottamalla tehnyt tehtävät muille. Täydellinen hallinta ja järjestää tehtävät ja muistutukset.</string>
+    <string name="description">Nopea Tehtävälista. Yksinkertainen ja hyödyllinen työkalu hallintaan tehtäviä ja muistutuksia. Voit luoda tehtäviä, joiden otsikko, päivämäärä ja kuvaus. Fire TODOList on erittäin nopea ja puhdas. Tehty on helppo käyttää. Fire TODOList on kolme listaa: saakka, Valmis ja kaikki, erottamalla tehnyt tehtävät muille. Täydellinen hallinta ja järjestää tehtävät ja muistutukset.</string>
 </resources>
