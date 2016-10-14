@@ -18,7 +18,7 @@
     <string name="action_delete">Vymazať</string>
     <string name="action_edit">Upraviť</string>
     <string name="action_show">Zobraziť detaily</string>
-    <string name="select_the_list">Oznažiť zoznam</string>
+    <string name="select_the_list">Označiť zoznam</string>
     <string name="action_cancel">Ukončiť</string>
     <string name="field_empty">Toto pole je potrebné</string>
     <string name="title_activity_edit_task">Upraviť úlohu</string>
