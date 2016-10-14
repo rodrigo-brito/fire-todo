@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Fire TODOList</string>
-    <string name="tasks">Úkoly</string>
-    <string name="action_settings">Nastavení</string>
-    <string name="title_activity_new_task">Novı úkol</string>
-    <string name="action_save">Uloit</string>
-    <string name="placeholder_title">Název</string>
-    <string name="pending">Nedokon?ené</string>
-    <string name="done">Spln?ny</string>
-    <string name="all">Všechny</string>
-    <string name="placeholder_date">Dátum</string>
+    <string name="tasks">Ãškoly</string>
+    <string name="action_settings">NastavenÃ­</string>
+    <string name="title_activity_new_task">NovÃ½ Ãºkol</string>
+    <string name="action_save">UloÅ¾it</string>
+    <string name="placeholder_title">NÃ¡zev</string>
+    <string name="pending">NedokonÄenÃ©</string>
+    <string name="done">SplnÄ›ny</string>
+    <string name="all">VÅ¡echny</string>
+    <string name="placeholder_date">DÃ¡tum</string>
     <string name="placeholder_description">Popis</string>
-    <string name="action_calendar">Dátum</string>
-    <string name="action_time">?as</string>
-    <string name="select_time">Dátum / ?as</string>
-    <string name="title_activity_view_task">Zobrazit úkol</string>
+    <string name="action_calendar">DÃ¡tum</string>
+    <string name="action_time">ÄŒas</string>
+    <string name="select_time">DÃ¡tum / ÄŒas</string>
+    <string name="title_activity_view_task">Zobrazit Ãºkol</string>
     <string name="action_delete">Vymazat</string>
     <string name="action_edit">Upravit</string>
     <string name="action_show">Zobrazit detaily</string>
-    <string name="select_the_list">Ozna?it zoznam</string>
-    <string name="action_cancel">Ukon?it</string>
-    <string name="field_empty">Tohle pole je pot?eba</string>
-    <string name="title_activity_edit_task">Upravit úkol</string>
-    <string name="description">Rıchlı seznam úkolú. Jednoduchı a uite?nı nástroj na správu úkolú a p?ipomínek. M?ete si vytvo?it úkol s názvem, dátumem a popisem. Fire TODOList je velmy rıchlı a p?ehnednı. Jednoduchı na pouívání.  Fire TODOList má t?i seznamy: Nedokon?ené, Splnené and Všechny, oddeluje splnené úkoly od ostatních. Perfektní na organizáciu Vašich úkolú a p?ipomínek.</string>
+    <string name="select_the_list">OznaÄit zoznam</string>
+    <string name="action_cancel">UkonÄit</string>
+    <string name="field_empty">Tohle pole je potÅ™eba</string>
+    <string name="title_activity_edit_task">Upravit Ãºkol</string>
+    <string name="description">RÃ½chlÃ½ seznam ÃºkolÃº. JednoduchÃ½ a uÅ¾iteÄnÃ½ nÃ¡stroj na sprÃ¡vu ÃºkolÃº a pÅ™ipomÃ­nek. MÅ¯Å¾ete si vytvoÅ™it Ãºkol s nÃ¡zvem, dÃ¡tumem a popisem. Fire TODOList je velmy rÃ½chlÃ½ a pÅ™ehnednÃ½. JednoduchÃ½ na pouÅ¾Ã­vÃ¡nÃ­.  Fire TODOList mÃ¡ tÅ™i seznamy: NedokonÄenÃ©, SplnenÃ© and VÅ¡echny, oddeluje splnenÃ© Ãºkoly od ostatnÃ­ch. PerfektnÃ­ na organizÃ¡ciu VaÅ¡ich ÃºkolÃº a pÅ™ipomÃ­nek.</string>
 </resources>
