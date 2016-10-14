@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fire TODOList</string>
+    <string name="tasks">Úkoly</string>
+    <string name="action_settings">Nastavení</string>
+    <string name="title_activity_new_task">Nový úkol</string>
+    <string name="action_save">Uložit</string>
+    <string name="placeholder_title">Název</string>
+    <string name="pending">Nedokon?ené</string>
+    <string name="done">Spln?ny</string>
+    <string name="all">Všechny</string>
+    <string name="placeholder_date">Dátum</string>
+    <string name="placeholder_description">Popis</string>
+    <string name="action_calendar">Dátum</string>
+    <string name="action_time">?as</string>
+    <string name="select_time">Dátum / ?as</string>
+    <string name="title_activity_view_task">Zobrazit úkol</string>
+    <string name="action_delete">Vymazat</string>
+    <string name="action_edit">Upravit</string>
+    <string name="action_show">Zobrazit detaily</string>
+    <string name="select_the_list">Ozna?it zoznam</string>
+    <string name="action_cancel">Ukon?it</string>
+    <string name="field_empty">Tohle pole je pot?eba</string>
+    <string name="title_activity_edit_task">Upravit úkol</string>
+    <string name="description">Rýchlý seznam úkolú. Jednoduchý a užite?ný nástroj na správu úkolú a p?ipomínek. M?žete si vytvo?it úkol s názvem, dátumem a popisem. Fire TODOList je velmy rýchlý a p?ehnedný. Jednoduchý na používání.  Fire TODOList má t?i seznamy: Nedokon?ené, Splnené and Všechny, oddeluje splnené úkoly od ostatních. Perfektní na organizáciu Vašich úkolú a p?ipomínek.</string>
+</resources>
