@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fire TODOList</string>
+    <string name="tasks">Tehtävät</string>
+    <string name="action_settings">Asetukset</string>
+    <string name="title_activity_new_task">Uusi Tehtävä</string>
+    <string name="action_save">Tallentaa</string>
+    <string name="placeholder_title">Otsikko</string>
+    <string name="pending">Odotettaessa</string>
+    <string name="done">Tehty</string>
+    <string name="all">Kaikki</string>
+    <string name="placeholder_date">Treffi</string>
+    <string name="placeholder_description">Kuvaus</string>
+    <string name="action_calendar">Treffi</string>
+    <string name="action_time">Aika</string>
+    <string name="select_time">Treffi / Aika</string>
+    <string name="title_activity_view_task">Näkymä Tehtävä</string>
+    <string name="action_delete">Poistaa</string>
+    <string name="action_edit">Muokata</string>
+    <string name="action_show">Näytä yksityiskohdat</string>
+    <string name="select_the_list">Valitse luettelo</string>
+    <string name="action_cancel">Peruuttaa</string>
+    <string name="field_empty">Tämä kenttä pitää täyttää</string>
+    <string name="title_activity_edit_task">Muokkaa Tehtävää</string>
+    <string name="description">Nopea Tehtävälista. Yksinkertainen ja hyödyllinen työkalu hallintaan tehtäviä ja muistutuksia. Voit luoda tehtäviä, joiden otsikko, päivämäärä ja kuvaus. Tuli todolist on erittäin nopea ja puhdas. Tehty on helppo käyttää. Tuli todolist on kolme listaa: saakka, Valmis ja kaikki, erottamalla tehnyt tehtävät muille. Täydellinen hallinta ja järjestää tehtävät ja muistutukset.</string>
+</resources>
