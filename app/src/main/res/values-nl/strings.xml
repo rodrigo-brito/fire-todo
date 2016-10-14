@@ -21,6 +21,6 @@
     <string name="select_the_list">Selecteer de lijst</string>
     <string name="action_cancel">Annuleer</string>
     <string name="field_empty">Dit veld is verplicht</string>
-    <string name="title_activity_edit_task">Taak aanpassen</string>
+    <string name="title_activity_edit_task">Taak bewerken</string>
     <string name="description">Een snelle to-do lijst. Een simpele en handige tool voor het beheren van taken en herinneringen. Je kan een taak aanmaken met een titel, datum en beschrijving. De Fire to-do lijst is supersnel en overzichtelijk. Gemaakt voor gebruiksvriendelijkheid. De Fire to-do lijst bevat drie lijsten: Bezig, Klaar en Alles, die alle afgeronde taken scheidt van de andere. Perfect om jouw taken en herinneringen te beheren en organiseren.</string>
 </resources>
