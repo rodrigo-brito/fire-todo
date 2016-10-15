@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fire TODOList</string>
+    <string name="tasks">Công việc</string>
+    <string name="action_settings">Cài đặt</string>
+    <string name="title_activity_new_task">Công việc mới</string>
+    <string name="action_save">Lưu</string>
+    <string name="placeholder_title">Tiêu đề</string>
+    <string name="pending">Đang chờ</string>
+    <string name="done">Đã xong</string>
+    <string name="all">Tất cả</string>
+    <string name="placeholder_date">Ngày</string>
+    <string name="placeholder_description">Mô tả</string>
+    <string name="action_calendar">Ngày</string>
+    <string name="action_time">Thời gian</string>
+    <string name="select_time">Ngày / Thời gian</string>
+    <string name="title_activity_view_task">Xem công việc</string>
+    <string name="action_delete">Xóa</string>
+    <string name="action_edit">Chỉnh sửa</string>
+    <string name="action_show">Xem chi tiết</string>
+    <string name="select_the_list">Chọn danh sách</string>
+    <string name="action_cancel">Hủy</string>
+    <string name="field_empty">Mục này là cần thiết</string>
+    <string name="title_activity_edit_task">Chỉnh sửa công việc</string>
+    <string name="description">Phần mềm nhắc việc. Công cụ dùng cho quản lý công việc và ghi chú, đơn giản và dễ sử dụng. Bạn có thể tạo mới công việc với tiêu đề, thời gian và mô tả. Fire TODOList rất nhanh và gọn, được thiết kế để dễ sử dụng. Fire TODOList có 3 danh sách cơ bản: Đang chờ (Pending), Đã xong (Done) và Tất cả (All). Một công cụ hoàn hảo cho việc quản lý, sắp xếp công việc và ghi chú của bạn.</string>
+</resources>
