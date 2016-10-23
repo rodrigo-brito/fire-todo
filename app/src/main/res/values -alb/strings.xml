@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fire TODOList</string>
+    <string name="tasks">Detyra</string>
+    <string name="action_settings">Cilësimet</string>
+    <string name="title_activity_new_task">Detyre e re</string>
+    <string name="action_save">Ruaj</string>
+    <string name="placeholder_title">Titulli</string>
+    <string name="pending">Ne pritje</string>
+    <string name="done">Perfunduar</string>
+    <string name="all">Te gjitha</string>
+    <string name="placeholder_date">Data</string>
+    <string name="placeholder_description">Pershkrim</string>
+    <string name="action_calendar">Data</string>
+    <string name="action_time">Kohë</string>
+    <string name="select_time">Data / Kohë</string>
+    <string name="title_activity_view_task">Shiko detyren</string>
+    <string name="action_delete">Fshi</string>
+    <string name="action_edit">Modifiko</string>
+    <string name="action_show">Shiko detajet</string>
+    <string name="select_the_list">Zgjidh listen</string>
+    <string name="action_cancel">Anullo</string>
+    <string name="field_empty">Kjo fushe eshte e detyruar</string>
+    <string name="title_activity_edit_task">Modifiko detyren</string>
+    <string name="description">Nje liste e shpejte. Nje mjet i thjeshte qe perdoret ne forme liste fhe axhende. Mund te krijosh nje detyre me titull, date dhe pershkrim. Fire TODOList ka 3 lista: Ne pritje, Te perfunduara dhe Te gjitha. Kjo ben te mundur ndarjen e detyrave nga njera-tjetra. Perfekte per menaxhimin dhe organizimin e detyrave.</string>
+</resources>
