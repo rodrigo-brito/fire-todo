@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fire TODOList</string>
+    <string name="tasks">කාර්යයන්</string>
+    <string name="action_settings">සැකසුම්</string>
+    <string name="title_activity_new_task">නව කාර්ය</string>
+    <string name="action_save">සුරකින්න</string>
+    <string name="placeholder_title">මාතෘකාව</string>
+    <string name="pending">විසදෙමින් පවතී</string>
+    <string name="done">අවසානයි</string>
+    <string name="all">සියලු</string>
+    <string name="placeholder_date">දිනය</string>
+    <string name="placeholder_description">විස්තර</string>
+    <string name="action_calendar">දිනය</string>
+    <string name="action_time">වේලාව</string>
+    <string name="select_time">දිනය / වේලාව</string>
+    <string name="title_activity_view_task">කාර්යන් පෙන්වන්න</string>
+    <string name="action_delete">මකන්න</string>
+    <string name="action_edit">සංස්කරණය</string>
+    <string name="action_show">විස්තර පෙන්වන්න</string>
+    <string name="select_the_list">ලැයිස්තුව තෝරන්න</string>
+    <string name="action_cancel">අවලංගු කරන්න</string>
+    <string name="field_empty">මෙම ක්ෂේත්‍රය අවශ්‍යයි</string>
+    <string name="title_activity_edit_task">කාර්ය සංස්කරණය</string>
+    <string name="description">ඉතා ඉක්මන් TO-DO ලැයිස්තුව. කාර්යයන් සහ සිහිගැන්වීම් කළමනාකරණය කිරීම සඳහා සරල සහ ඵලදායී මෙවලමක්. ඔබට මාතෘකාවක්, දිනය හා විස්තර සමග කාර්යයන් නිර්මාණය කළ හැකිය. Fire TODOList යෙදුම ඉතා වේගවත් හා පිරිසිදුය. භාවිතා කිරීමට පහසුය. Fire TODOList සතුව ලැයිස්තු තුනක් ඇත : සිදුවෙමින් පවතින, අවසන් සහ සියලුම, අන් අය විසින් සිදුකර අවසන් කාර්යයන් වෙන්වම. ඔබේ කාර්යයන් සහ සිහිගැන්වීම් සංවිධානය සහ කළමනාකරණය සඳහා ඉතාමත් සුදුසුයි.</string>
+</resources>
