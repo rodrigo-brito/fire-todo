@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fire TODOList</string>
+    <string name="tasks">ചുമതലകൾ</string>
+    <string name="action_settings">ക്രമീകരണങ്ങൾ</string>
+    <string name="title_activity_new_task">പുതിയ ചുമതല</string>
+    <string name="action_save">സന്വാദിക്കുക</string>
+    <string name="placeholder_title">തലക്കെട്ട്</string>
+    <string name="pending">തീരുമാനിക്കപ്പെടാത്ത</string>
+    <string name="done">ചെയ്തുകഴിഞ്ഞു</string>
+    <string name="all">എല്ലാം</string>
+    <string name="placeholder_date">തീയതി</string>
+    <string name="placeholder_description">വിവരണം</string>
+    <string name="action_calendar">തീയതി</string>
+    <string name="action_time">സമയം</string>
+    <string name="select_time">തീയതി / സമയം</string>
+    <string name="title_activity_view_task">കാണുക ചുമതലാ</string>
+    <string name="action_delete">ഇല്ലാതാക്കുക</string>
+    <string name="action_edit">തിരുത്തുക</string>
+    <string name="action_show">വിശദാംശങ്ങള് കാണിക്കുക</string>
+    <string name="select_the_list">പട്ടികയിൽ തിരഞ്ഞെടുക്കുക</string>
+    <string name="action_cancel">റദ്ദാക്കുക</string>
+    <string name="field_empty">ഈ ഫീൽഡ് പൂരിപ്പിക്കേണ്ടതുണ്ട്</string>
+    <string name="title_activity_edit_task">ചുമതലാ തിരുത്തൽ</string>
+    <string name="description">വേഗതയാർന്ന ചെയ്യേണ്ടവയുടെ ലിസ്റ്റ്. ജോലികളെ ഓർമക്കുറിപ്പുകൾ മാനേജ്മെന്റ് ലളിതവും ഉപയോഗപ്രദമായ ഉപകരണം. നിങ്ങൾ ഒരു ശീർഷകം, തീയതിയും വിവരണം ടാസ്കുകൾ സൃഷ്ടിക്കാൻ കഴിയും. ഫയർ TODOList വളരെ വേഗത്തിൽ ചിട്ടയുള്ളതുമാണ്. ഉപയോഗിക്കാൻ എളുപ്പമാണ് ആക്കി. ഫയർ TODOList മൂന്നു ലിസ്റ്റുകളൊന്നും: യുഎഇയിൽ പൂർത്തിയായി എല്ലാവരും മറ്റുള്ളവരുടെ ചെയ്തതു ചുമതലകൾ വേർതിരിക്കുന്ന. നടത്തിപ്പിനുള്ള തികഞ്ഞവരും നിങ്ങളുടെ ചുമതലകൾ ഓർമ്മപ്പെടുത്തലുകളും ഓർഗനൈസ്.</string>
+</resources>
