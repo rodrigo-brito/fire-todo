@@ -6,7 +6,7 @@
     <string name="title_activity_new_task">Νέο </string>
     <string name="action_save">Αποθήκευση</string>
     <string name="placeholder_title">Τίτλος</string>
-    <string name="pending">Εκκρεμής</string>
+    <string name="pending">Εκκρεμή</string>
     <string name="done">Έγιναν</string>
     <string name="all">Όλα</string>
     <string name="placeholder_date">Ημερομηνία</string>
@@ -21,6 +21,6 @@
     <string name="select_the_list">Διάλεξε λίστα</string>
     <string name="action_cancel">Ακύρωση</string>
     <string name="field_empty">Αυτό το πέδίο είναι υποχρεωτικό</string>
-    <string name="title_activity_edit_task">Επεξεργασία καθηκόντος</string>
-    <string name="description">Μία γρήγορη λίστα καθηκόντων. Ενα απλό και χρήσιμο εργαλείο για διαχείριση καθηκόντων και υπενθυμίσεων. Μπορείς να δημιουργήσεις ενα καθήκον που περιέχει τίτλο, ημερομηνία και περιγραφή. Το Fire TODOList είναι γρήγορο και λητό. Δημιουργημένο για εύκολη χρήση. Το Fire TODOList έχει τρείς λίστες: Εκκρεμής, Έγιναν και ΌΛΑ, ξεκαθαρίζοντας τα καθήκοντα που έχουν γίνει απο τα άλλα. Κατάλληλο για την διαχείριση και οργάνωση των καθηκόντων και υπενθυμίσεων σου.</string>
+    <string name="title_activity_edit_task">Επεξεργασία καθήκοντος</string>
+    <string name="description">Μία γρήγορη λίστα καθηκόντων. Ενα απλό και χρήσιμο εργαλείο για διαχείριση καθηκόντων και υπενθυμίσεων. Μπορείς να δημιουργήσεις ένα καθήκον που περιέχει τίτλο, ημερομηνία και περιγραφή. Το Fire TODOList είναι γρήγορο και λητό. Δημιουργημένο για εύκολη χρήση. Το Fire TODOList έχει τρεις λίστες: Εκκρεμής, Έγιναν και ΌΛΑ, ξεκαθαρίζοντας τα καθήκοντα που έχουν γίνει από τα άλλα. Κατάλληλο για την διαχείριση και οργάνωση των καθηκόντων και υπενθυμίσεων σου.</string>
 </resources>
