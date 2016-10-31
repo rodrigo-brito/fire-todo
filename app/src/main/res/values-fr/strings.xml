@@ -6,9 +6,9 @@
     <string name="title_activity_new_task">Nouvelle tâche</string>
     <string name="action_save">Enregistrer</string>
     <string name="placeholder_title">Titre</string>
-    <string name="pending">En attendant</string>
+    <string name="pending">En attente</string>
     <string name="done">Terminé</string>
-    <string name="all">Tous</string>
+    <string name="all">Tout</string>
     <string name="placeholder_date">Date</string>
     <string name="placeholder_description">Description</string>
     <string name="action_calendar">Date</string>
@@ -22,5 +22,5 @@
     <string name="action_cancel">Annuler</string>
     <string name="field_empty">Il faut remplir ce champ</string>
     <string name="title_activity_edit_task">Modifier la tâche</string>
-	<string name="description">Une liste des tâches rapide. Simple et utile pour gérer des tâches et des rappels. Vous pouvez créer des tâches avec un titre, la date et une description. Fire TODOList est très rapide et propre. Produit pour être facile à utiliser.  Fire TODOList a trois listes: En attendant, Fini et Tous, qui séparent les tâches terminées des autres. Parfait pour gérer et organizer des tâches et rappels.</string>
+	<string name="description">Une application pour créer des tâches rapidement. Simple et utile pour gérer des tâches et des rappels. Vous pouvez créer des tâches avec un titre, une date et une description. Fire TODOList est très rapide et propre. Créé pour être facile à utiliser. Fire TODOList a trois listes: En attente, Terminé et Tout, qui séparent les tâches terminées des autres. Parfait pour gérer et organizer des tâches et rappels.</string>
 </resources>
