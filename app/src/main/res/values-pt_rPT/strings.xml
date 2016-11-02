@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Fire TODOList</string>
     <string name="tasks">Tarefas</string>
@@ -22,5 +22,5 @@
     <string name="action_cancel">Cancelar</string>
     <string name="field_empty">Este campo é obrigatório</string>
     <string name="title_activity_edit_task">Editar Tarefa</string>
-    <string name="description">Ferramenta simples e prática para gerir as suas tarefas, anotações e lembretes. Através do Fire TODOList pode-se criar tarefas, detalhando informações como data e descrição de actividades.  Um aplicativo feito para ser rápido e clean. Uma ferramenta veloz que facilitará a sua gestãode actividades.  O aplicativo é dividido em 3 listas: Pendente, Pronto e Todos. Desta forma, pode organizar os seus lembretes e tarefas de maneira muito prática.  Totalmente gratuito e livre de propagandas.</string>
+    <string name="description">Ferramenta simples e prática para gerir as suas tarefas, anotações e lembretes. Através do Fire TODOList pode-se criar tarefas, detalhando informações como data e descrição de actividades.  Um aplicativo feito para ser rápido e clean. Uma ferramenta veloz que facilitará a sua gestão de actividades.  O aplicativo é dividido em 3 listas: Pendente, Pronto e Todos. Desta forma, pode organizar os seus lembretes e tarefas de maneira muito prática.  Totalmente gratuito e livre de propagandas.</string>
 </resources>
