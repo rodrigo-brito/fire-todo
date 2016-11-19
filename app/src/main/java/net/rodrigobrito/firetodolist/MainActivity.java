@@ -74,6 +74,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onPageSelected(int position) {
                 tabLayout.getTabAt(position).select();
+                MainActivity.this.adapterViewPager.notifyDataSetChanged();
             }
 
             @Override
