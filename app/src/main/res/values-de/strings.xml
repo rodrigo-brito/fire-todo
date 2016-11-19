@@ -22,5 +22,5 @@
     <string name="action_cancel">Abbrechen</string>
     <string name="field_empty">Pflichtfeld</string>
     <string name="title_activity_edit_task">Bearbeitung einer Aufgabe</string>
-    <string name="description">Eine schnelle To-do Liste. Einfache und gut zu bedienende Applikation für die Verwaltung von Aufgaben und Erinnerungen. Es können Aufgaben mit Titel, Datum und Beschreibung angelegt werden. Die Fire TODOList ist sehr schnell und aufgeräumt. Sie ist einfach zu benutzen. Die Fire TODOList bietet drei Listen an: Ausstehend, Erledigt und Alle, zusätzlich sind die erledigten Aufgaben von den anderen getrennt. Perfekt für die Verwaltung und das Organisieren von Aufgaben und Erinnerungen.</string>
+    <string name="description">Eine schnelle To-do Liste. Einfache und gut zu bedienende Applikation für die Verwaltung von Aufgaben und Erinnerungen. Es können Aufgaben mit Titel, Datum und Beschreibung angelegt werden. Die Fire TODOList ist sehr schnell und aufgeräumt. Sie ist einfach zu benutzen. Die Fire TODOList bietet drei Listen an: Ausstehend, Erledigt und Alle. Zusätzlich sind die erledigten Aufgaben von den anderen getrennt. Perfekt für die Verwaltung und das Organisieren von Aufgaben und Erinnerungen.</string>
 </resources>

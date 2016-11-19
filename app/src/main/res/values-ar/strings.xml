@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fire TODOList</string>
+    <string name="tasks">المهام</string>
+    <string name="action_settings">إعدادات</string>
+    <string name="title_activity_new_task">مهمة جديدة</string>
+    <string name="action_save">تسجيل</string>
+    <string name="placeholder_title">عنوان</string>
+    <string name="pending">انتظار</string>
+    <string name="done">انتهى</string>
+    <string name="all">الجميع</string>
+    <string name="placeholder_date">تاريخ</string>
+    <string name="placeholder_description">وصف</string>
+    <string name="action_calendar">تاريخ</string>
+    <string name="action_time">الساعة</string>
+    <string name="select_time">تاريخ / الساعة</string>
+    <string name="title_activity_view_task">عرض المهمة</string>
+    <string name="action_delete">ازالة</string>
+    <string name="action_edit">تغيير</string>
+    <string name="action_show">مشاهدة التفاصيل</string>
+    <string name="select_the_list">إختر القائمة</string>
+    <string name="action_cancel">إلغاء</string>
+    <string name="field_empty">يجب ملء هذا المجال</string>
+    <string name="title_activity_edit_task">تعديل المهمة</string>
+	<string name="description">قائمة المهام السريعة. بسيطة ومفيدة لإدارة المهام والتذكير. يمكنك إنشاء المهام مع العنوان والتاريخ والوصف. todolist Fire سريع جدا ونظيف. سهلة الاستخدام. Fire todolist له ثلاث قوائم: الإنتهاء ، الانتظار ، و كل شيء . 
+تقوم على فصل المهام المكتملة للأخرين . مثالية لإدارة وتنظيم المهام والتذكير</string>
+</resources>

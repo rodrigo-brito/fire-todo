@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fire TODOList</string>
+    <string name="tasks">Tugasan</string>
+    <string name="action_settings">Tetapan</string>
+    <string name="title_activity_new_task">Tugasan Baru</string>
+    <string name="action_save">Simpan</string>
+    <string name="placeholder_title">Tajuk</string>
+    <string name="pending">Belum Selesai</string>
+    <string name="done">Selesai</string>
+    <string name="all">Semua</string>
+    <string name="placeholder_date">Tarikh</string>
+    <string name="placeholder_description">Penerangan</string>
+    <string name="action_calendar">Tarikh</string>
+    <string name="action_time">Waktu</string>
+    <string name="select_time">Tarikh / Waktu</string>
+    <string name="title_activity_view_task">Lihat Tugasan</string>
+    <string name="action_delete">Padam</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_show">Tunjukkan lebih lanjut</string>
+    <string name="select_the_list">Pilih senarai</string>
+    <string name="action_cancel">Batal</string>
+    <string name="field_empty">Bahagian ini diperlukan</string>
+    <string name="title_activity_edit_task">Edit Tugasan</string>
+    <string name="description">Senarai tugasan yang cepat . Alat yang mudah dan berguna untuk pengurusan tugasan dan peringatan. Anda boleh membuat tugas-tugas dengan tajuk, tarikh dan penerangan. Fire TODOList ini adalah sangat cepat dan bersih . Dibuat untuk menjadi mudah untuk digunakan. Fire TODOList ini mempunyai tiga senarai: Belum Selesai, Selesai dan Semua, memisahkan tugas-tugas yang dilakukan yang lain. Sesuai untuk pengurusan dan mengatur tugas dan peringatan anda.</string>
+</resources>
