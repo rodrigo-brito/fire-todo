@@ -22,5 +22,5 @@
     <string name="action_cancel">Annulla</string>
     <string name="field_empty">Questo campo è obbligatorio</string>
     <string name="title_activity_edit_task">Modifica attività</string>
-    <string name="description">Una rapida lista di cose da fare. Uno strumento semplice ed utile per gestire attività e promemoria. E' possibile creare attività con un titolo, una data ed una descrizione. Fire TODOList è molto rapida e semplice da usare. Fire TODOList ha tre tipi di liste: In sospeso, Finite and Tutte, per separare le liste Finite dalle altre. Perfetta per gestire e tenere in ordine le tue attività e i tuoi promemoria.</string>
+    <string name="description">Una rapida lista di cose da fare. Uno strumento semplice ed utile per gestire attività e promemoria. E\' possibile creare attività con un titolo, una data ed una descrizione. Fire TODOList è molto rapida e semplice da usare. Fire TODOList ha tre tipi di liste: In sospeso, Finite and Tutte, per separare le liste Finite dalle altre. Perfetta per gestire e tenere in ordine le tue attività e i tuoi promemoria.</string>
 </resources>

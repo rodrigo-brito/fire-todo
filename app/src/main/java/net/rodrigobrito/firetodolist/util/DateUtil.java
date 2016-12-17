@@ -20,6 +20,6 @@ public class DateUtil {
         if(date == null){
             return "";
         }
-        return sdf.format(date);
+        return new SimpleDateFormat("EEE").format(date) + ", " + sdf.format(date);
     }
 }
