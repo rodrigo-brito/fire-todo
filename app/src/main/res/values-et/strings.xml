@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fire TODOList</string>
+    <string name="banner_ad_unit_id" translatable="false">ca-app-pub-0661921010225573/7076125939</string>
+    <string name="tasks">Ülesanded</string>
+    <string name="action_settings">Seaded</string>
+    <string name="title_activity_new_task">Uus ülesanne</string>
+    <string name="action_save">Salvesta</string>
+    <string name="placeholder_title">Pealkiri</string>
+    <string name="pending">Lahtine</string>
+    <string name="done">Tehtud</string>
+    <string name="all">Kõik</string>
+    <string name="placeholder_date">Kuupäev</string>
+    <string name="placeholder_description">Kirjeldus</string>
+    <string name="action_calendar">Kuupäev</string>
+    <string name="action_time">Aeg</string>
+    <string name="select_time">Kuupäev / Aeg</string>
+    <string name="title_activity_view_task">Vaata ülesannet</string>
+    <string name="action_delete">Kustuta</string>
+    <string name="action_edit">Muuda</string>
+    <string name="action_show">Näita detaile</string>
+    <string name="select_the_list">Vali nimekiri</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="field_empty">See väli on nõutud</string>
+    <string name="title_activity_edit_task">Muuda ülesannet</string>
+    <string name="description">Kiire ülesannete nimekiri. Lihtne ja kasulik töörist ülesannete ja meeldetuletuste haldamiseks. Saate luua ülesandeid pealkirja, kuupäeva ja kirjeldusega. FireTODOList on väga kiire ja puhas. Loodud lihtsalt kasutatavaks. Fire TODOList-is on kolme sorti nimekirju: Lahtised, Tehtud ja Kõik, eraldamaks tehtud ülesandeid ülejäänutest. Ideaalne teie ülesannete ja meeldetuletuste haldamiseks.</string>
+    <string name="phone_test_unique_id" translatable="false">e5564116db773c7b</string>
+</resources>
