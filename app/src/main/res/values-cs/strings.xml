@@ -7,7 +7,7 @@
     <string name="action_save">Uložit</string>
     <string name="placeholder_title">Název</string>
     <string name="pending">Nedokončené</string>
-    <string name="done">Splněny</string>
+    <string name="done">Splněné</string>
     <string name="all">Všechny</string>
     <string name="placeholder_date">Datum</string>
     <string name="placeholder_description">Popis</string>
@@ -15,7 +15,7 @@
     <string name="action_time">Čas</string>
     <string name="select_time">Datum / Čas</string>
     <string name="title_activity_view_task">Zobrazit úkol</string>
-    <string name="action_delete">Vymazat</string>
+    <string name="action_delete">Smazat</string>
     <string name="action_edit">Upravit</string>
     <string name="action_show">Zobrazit detaily</string>
     <string name="select_the_list">Označit seznam</string>
