@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fire TODOList</string>
+    <string name="banner_ad_unit_id" translatable="false">ca-app-pub-0661921010225573/7076125939</string>
+    <string name="tasks">Uzdevumi</string>
+    <string name="action_settings">Iestatījumi</string>
+    <string name="title_activity_new_task">Jauns uzdevums</string>
+    <string name="action_save">Saglabāt</string>
+    <string name="placeholder_title">Nosaukums</string>
+    <string name="pending">Gaida</string>
+    <string name="done">Pabeigts</string>
+    <string name="all">Visi</string>
+    <string name="placeholder_date">Datums</string>
+    <string name="placeholder_description">Apraksts</string>
+    <string name="action_calendar">Datums</string>
+    <string name="action_time">Laiks</string>
+    <string name="select_time">Datums / Laiks</string>
+    <string name="title_activity_view_task">Skatīt uzdevumu/string>
+    <string name="action_delete">Dzēst</string>
+    <string name="action_edit">Labot</string>
+    <string name="action_show">Rādīt sīkāk</string>
+    <string name="select_the_list">Izvēlēties sarakstu</string>
+    <string name="action_cancel">Atcelt</string>
+    <string name="field_empty">Šo lauku jāaizpilda obligāti</string>
+    <string name="title_activity_edit_task">Labot uzdevumu</string>
+    <string name="description">Ātrs darāmo lietu saraksts. Vienkāršs un noderīgs rīks uzdevumu un atgādinājumu pārvaldīšanai. Iespējams izveidot uzdevumus, norādot nosaukumu, datumu un aprakstu. Fire TODOList ir ļoti ātrs un vienkāršs, kā radīts vieglai lietošanai. Fire TODOList ir trīs saraksti - Gaida, Pabeigts un Visi, kas atdala jau pabeigtos uzdevumus no pārējiem. Ideāls rīks, lai pārvaldītu un organizētu savus uzdevumus un atgādinājumus.</string>
+    <string name="phone_test_unique_id" translatable="false">e5564116db773c7b</string>
+</resources>
