@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fire TODOList</string>
+    <string name="tasks">Tugas</string>
+    <string name="action_settings">Pengaturan</string>
+    <string name="title_activity_new_task">Tugas Baru</string>
+    <string name="action_save">Simpen</string>
+    <string name="placeholder_title">Judul</string>
+    <string name="pending">Engko Dhisit</string>
+    <string name="done">Rampung</string>
+    <string name="all">Kabeh</string>
+    <string name="placeholder_date">Tanggal</string>
+    <string name="placeholder_description">Deskripsi</string>
+    <string name="action_calendar">Tanggal</string>
+    <string name="action_time">Wektu</string>
+    <string name="select_time">Tanggal / Wektu</string>
+    <string name="title_activity_view_task">Deleng Tugas</string>
+    <string name="action_delete">Busek</string>
+    <string name="action_edit">Ganti isine</string>
+    <string name="action_show">Deleng lengkap</string>
+    <string name="select_the_list">Pilih daftar</string>
+    <string name="action_cancel">Ora sida</string>
+    <string name="field_empty">Kie perlu diisi</string>
+    <string name="title_activity_edit_task">Ganti Isi Tugas</string>
+    <string name="description">Kie aplikasi nggo nulis tugas secara cepet. Simpel lan gampang di enggo nggo manajemen tugas karo nggo ngelingna awakmu. Rika teyeng ngorganisisr tugas, carane isi judule, tanggale karo deskripsine. Aplikasi kie dirancang cepet, gampang di enggo. Ana telung daftar sing bisa rika enggo: Engko Disit, Rampung, karo Kabeh. Saben list dirancang nggo nggampangna rika dalam manajemen tugas lan organisir reminder nggo ngelingna awak. </string>
+</resources>
