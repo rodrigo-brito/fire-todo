@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fire TODOList</string>
+    <string name="tasks">Tarefas</string>
+    <string name="action_settings">Axustes</string>
+    <string name="title_activity_new_task">Nova tarefa</string>
+    <string name="action_save">Gardar</string>
+    <string name="placeholder_title">Título</string>
+    <string name="pending">Pendente</string>
+    <string name="done">Terminado</string>
+    <string name="all">Todo</string>
+    <string name="placeholder_date">Data</string>
+    <string name="placeholder_description">Descrición</string>
+    <string name="action_calendar">Data</string>
+    <string name="action_time">Hora</string>
+    <string name="select_time">Data / Hora</string>
+    <string name="title_activity_view_task">Ver Tarefa</string>
+    <string name="action_delete">Eliminar</string>
+    <string name="action_edit">Editar</string>
+    <string name="action_show">Mostrar detalles</string>
+    <string name="select_the_list">Selecciona a lista</string>
+    <string name="action_cancel">Cancelar</string>
+    <string name="field_empty">O campo é obrigatorio</string>
+    <string name="title_activity_edit_task">Editar tarefa</string>
+    <string name="description">Unha rápida lista de deberes. Unha ferramenta sinxela e útil para xestionar tarefas e recordatorios. Pode crear tarefas con título, data e descrición. Fire TODOList é moi rápido e limpo. Está feito para ser doado de usar. Fire TODOList ten tres listas: Pendentes, Terminadas, Todas, separando as tarefas rematadas dos demais. Perfecto para xestionar e organizar as túas tarefas e recordatorios.</string>
+</resources>
