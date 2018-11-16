@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fire TODOList</string>
+    <string name="banner_ad_unit_id" translatable="false">ca-app-pub-0661921010225573/7076125939</string>
+    <string name="tasks">Tarefas</string>
+    <string name="action_settings">Configurações</string>
+    <string name="title_activity_new_task">Nova tarefa</string>
+    <string name="action_save">Salvar</string>
+    <string name="placeholder_title">Título</string>
+    <string name="pending">Pendente</string>
+    <string name="done">Feito</string>
+    <string name="all">Tudo</string>
+    <string name="placeholder_date">Data</string>
+    <string name="placeholder_description">Descrição</string>
+    <string name="action_calendar">Data</string>
+    <string name="action_time">Hora</string>
+    <string name="select_time">Data / Hora</string>
+    <string name="title_activity_view_task">Ver tarefa</string>
+    <string name="action_delete">Deletar</string>
+    <string name="action_edit">Editar</string>
+    <string name="action_show">Mostrar detalhes</string>
+    <string name="select_the_list">Selecione a lista</string>
+    <string name="action_cancel">Cancelar</string>
+    <string name="field_empty">Este campo é necessário</string>
+    <string name="title_activity_edit_task">Editar tarefa</string>
+    <string name="description">Uma rápida "To-do list". Simples e útil para o controle de tarefas e lembretes.Você pode criar tarefas com um título, data e descrição. A "Fire TODOList" é rápida e limpa. Feita para ser fácil de usar. A "Fire TODOList" possui três listas: Pendentes, Feito e Todos, separando as tarefas feitas das outras. Perfeito para controlar e organizar suas tarefas e lembretes.</string>
+    <string name="phone_test_unique_id" translatable="false">e5564116db773c7b</string>
+</resources>
